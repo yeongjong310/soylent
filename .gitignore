@@ -2,6 +2,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,flask
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,flask
 
+# Poetry
+
+poetry.lock
+pyproject.toml
+
 ### Flask ###
 instance/*
 !instance/.gitignore
