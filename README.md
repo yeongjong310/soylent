@@ -18,3 +18,7 @@ And, follow the instructions with [documentation/instruction.md](documentation/i
 ## Important
 
 Do not push this repo to your account after clone.
+
+## Schemas
+
+Please see [backend/schema/fields.py](backend/schema/fields.py)
