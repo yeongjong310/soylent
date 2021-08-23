@@ -2,6 +2,7 @@ from flask import Flask
 from .model import Mongo
 from .schema import Schema
 from .img import Img
+from .product import Product
 from flask_graphql_auth import GraphQLAuth
 
 
@@ -17,5 +18,6 @@ def create_app(*config_cls):
     Schema(app)
     GraphQLAuth(app)
     Img(app)
+    Product(app)
 
     return app

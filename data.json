@@ -1,0 +1,1727 @@
+{
+    "all-drinks":{
+        "id": 261351637103,
+        "sortBy": "manual",
+        "url": "/collections/all-drinks",
+        "products": [
+            {
+                "id": 4462614839407,
+                "title": "Soylent Drink Creamy Chocolate",
+                "main-description": "You will love the rich and creamy chocolatey goodness of our best selling nutrient-packed complete meal. Perfect for breakfast, lunch or anytime you need a nutritious meal that's delicious.",
+                "url": "/products/soylent-drink-creamy-chocolate",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CreamyChocolate_Hero_{width}x.png?v=1624371939",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CreamyChocolate_Splash_d4d64e90-08ef-464b-b79c-19395bcd3bc7_{width}x.png?v=1624371939",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721813413999",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611330855023": {
+                            "discount_variant_id": 39853367787631,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31611330855023,
+                        "discountVariantId": "39853367787631",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4489418014831,
+                "title": "Soylent Cafe Mocha",
+                "main-description": "This robust, chocolatey coffee drink is the perfect breakfast! This convenient, nutritious meal contains caffeine and L-theanine to jump start your day without the jitters.",
+                "url": "/products/soylent-cafe-mocha",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CafeMocha_Hero_{width}x.png?v=1624370741",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CopyofUntitled_{width}x.png?v=1624370741",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721742471279",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                    "original_to_hidden_variant_map": {
+                        "31753518317679": {
+                            "discount_variant_id": 39853199851631,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31753518317679,
+                        "discountVariantId": "39853199851631",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "Bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462621163631,
+                "title": "Soylent Drink Mint Chocolate",
+                "main-description": "This delicious dessert-inspired flavor is packed with 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+                "url": "/products/soylent-drink-mint-chocolate-1",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_MintChocolate_Hero_{width}x.png?v=1624371949",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/MintChocolate_Splash_{width}x.png?v=1624371949",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721813184623",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611342782575": {
+                            "discount_variant_id": 39853366837359,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31611342782575,
+                        "discountVariantId": "39853366837359",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462627749999,
+                "title": "Soylent Drink Original",
+                "main-description": "The flavor that started it all — light, sweet, and velvety smooth. A ready-to-drink meal offering 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+                "url": "/products/soylent-drink-original",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Original_Hero_{width}x.png?v=1624329750",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070721_soylent_FlavorCues_ORIGINAL_A01_{width}x.jpg?v=1627315367",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "17.1700000000",
+                    "discount_product_id": "6720826867823",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611361853551": {
+                            "discount_variant_id": 39851721654383,
+                            "discount_variant_price": "32.30"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254648"
+                },
+                "variants": [
+                    {
+                        "id": 31611361853551,
+                        "discountVariantId": "39851721654383",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 3900,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 753752408170,
+                "title": "Soylent Cafe Chai",
+                "main-description": "Sweet, spice and everything nice. The perfect breakfast, convenient, nutritious complete meal with caffeine and L-theanine to jump start your day without the jitters.",
+                "url": "/products/cafe-chai",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CafeChai_Hero_{width}x.png?v=1624371860",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CafeChai_Splash_{width}x.png?v=1624371862",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721813512303",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "8138838868074": {
+                            "discount_variant_id": 39853367885935,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 8138838868074,
+                        "discountVariantId": "39853367885935",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "deny"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "Bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462641447023,
+                "title": "Soylent Drink Vanilla",
+                "main-description": "A creamy vanilla shake that will remind you of childhood milkshakes! However, this shake comes with 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+                "url": "/products/soylent-drink-vanilla",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Vanilla_Hero_{width}x.png?v=1624371972",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Vanilla_Splash_{width}x.png?v=1624371972",
+                "showUnitInPlp": false,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721811218543",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611393310831": {
+                            "discount_variant_id": 39853364772975,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31611393310831,
+                        "discountVariantId": "39853364772975",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462794604655,
+                "title": "Soylent Neapolitan Variety Pack",
+                "main-description": "Get your favorite flavor fix with our Soylent Neapolitan Variety Pack. Featuring Creamy Chocolate, Strawberry and classic Vanilla. Each bottle contains 20g of plant-based protein, 39 essential nutrients, and only 1g of sugar.",
+                "url": "/products/soylent-drink-variety-pack",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Neapolitan_Hero_1_{width}x.png?v=1627315347",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_VARIETYPACKneapolitan_A01_{width}x.jpg?v=1627315347",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.3300000000",
+                    "discount_product_id": "4600714330223",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611875459183": {
+                            "discount_variant_id": 32229285560431,
+                            "discount_variant_price": "39.90"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254654"
+                },
+                "variants": [
+                    {
+                        "id": 31611875459183,
+                        "discountVariantId": "32229285560431",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4500,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4579693330543,
+                "title": "Soylent Nutrition Shake Sampler Pack",
+                "main-description": "Can’t decide which flavor to choose? Try our Soylent Drink Sampler Pack with six of our delicious flavors. Featuring Creamy Chocolate, Strawberry, Banana, Mint Chocolate, Vanilla and Cafe Mocha.",
+                "url": "/products/soylent-shake-sampler-pack",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Sampler_Hero_2_{width}x.png?v=1627315268",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SAMPLERPACK_A01_{width}x.jpg?v=1627315268",
+                "showUnitInPlp": true,
+                "subtitle": "6 bottles",
+                "subscriptions": {},
+                "variants": [
+                    {
+                        "id": 32172953796719,
+                        "discountVariantId": null,
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 2500,
+                "bulkQuantity": "6",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": null,
+                    "purchaseType": "onetime",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4605292609647,
+                "title": "Soylent Complete Protein Chocolate",
+                "main-description": "Our new plant-based, high protein nutrition shake delivers an impressive 30g of complete plant-based protein in just 11oz. This creamy shake also includes 9 essential amino acids, 5g of BCAAs, and 39 essential with 0g of sugar!",
+                "url": "/products/soylent-complete-protein-chocolate",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_CompleteProtein_Chocolate_Hero_{width}x.png?v=1627315223",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_COMPLETEPROTEINchocolate_A01_{width}x.jpg?v=1627315226",
+                "showUnitInPlp": false,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "10.0000000000",
+                    "discount_product_id": "4607849562223",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "32248221892719": {
+                            "discount_variant_id": 32255099994223,
+                            "discount_variant_price": "29.70"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "287319"
+                },
+                "variants": [
+                    {
+                        "id": 32248221892719,
+                        "discountVariantId": "32255099994223",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 3300,
+                "bulkQuantity": "12",
+                "unitName": "Bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4605292675183,
+                "title": "Soylent Complete Energy Chocolate",
+                "main-description": "This is not your typical energy drink. It is the first complete nutrition nootropics shake to fuel your mind and body. Formulated with a proprietary blend of b vitamins, caffeine, l-theanine, l-tyrosine and alpha-GPC plus 15g of plant based protein and 39 essential nutrients. A delicious way to keep you going throughout the day without sugar highs and lows.",
+                "url": "/products/soylent-complete-energy-chocolate",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_CompleteEnergy_Chocolate_Hero_{width}x.png?v=1627315201",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_COMPLETEENERGYchocolate_A01_{width}x.jpg?v=1627315204",
+                "showUnitInPlp": false,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "10.0000000000",
+                    "discount_product_id": "4607849529455",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "32248221958255": {
+                            "discount_variant_id": 32255099961455,
+                            "discount_variant_price": "29.70"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "287319"
+                },
+                "variants": [
+                    {
+                        "id": 32248221958255,
+                        "discountVariantId": "32255099961455",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 3300,
+                "bulkQuantity": "12",
+                "unitName": "Bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4572886302831,
+                "title": "Soylent Chocolate Lover's Variety Pack",
+                "main-description": "Get your favorite flavor fix with our Soylent Chocolate Lover’s Variety Pack. Featuring Creamy Chocolate, Cafe Mocha and Mint Chocolate. Each bottle contains 20g of plant-based protein, 39 essential nutrients, and only 1g of sugar.",
+                "url": "/products/soylent-chocolate-lovers-variety-pack",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_ChocLovers_Hero_2_{width}x.png?v=1627315327",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_VARIETYPACKchocolatelovers_A01_{width}x.jpg?v=1627315327",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.3300000000",
+                    "discount_product_id": "4575693537391",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "32122672218223": {
+                            "discount_variant_id": 32144408805487,
+                            "discount_variant_price": "39.90"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254654"
+                },
+                "variants": [
+                    {
+                        "id": 32122672218223,
+                        "discountVariantId": "32144408805487",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 4500,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462631157871,
+                "title": "Soylent Drink Strawberry",
+                "main-description": "Our sweet strawberry flavor has a fruity finish and only 1g of sugar. A ready-to-drink meal offering 20g of plant-based protein and 39 essential nutrients.",
+                "url": "/products/soylent-drink-strawberry",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Strawberry_Hero_{width}x.png?v=1624371961",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Strawberry_Splash_{width}x.png?v=1624371961",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721814036591",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611370012783": {
+                            "discount_variant_id": 39853373161583,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31611370012783,
+                        "discountVariantId": "39853373161583",
+                        "option1": "Default Title",
+                        "available": false,
+                        "inventoryPolicy": "deny"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 4462559559791,
+                "title": "Soylent Drink Banana",
+                "main-description": "Our creamy banana flavor is the perfect treat and isn't overpowering. This delicious ready-to-drink meal provides 20g of plant-based protein and 39 essential nutrients.",
+                "url": "/products/soylent-drink-banana",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Banana_Hero_{width}x.png?v=1624371930",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Banana_Splash_{width}x.png?v=1624371930",
+                "showUnitInPlp": true,
+                "subtitle": "12 bottles",
+                "subscriptions": {
+                    "discount_percentage": "11.7800000000",
+                    "discount_product_id": "6721814102127",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "31611205943407": {
+                            "discount_variant_id": 39853373882479,
+                            "discount_variant_price": "37.05"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "254647"
+                },
+                "variants": [
+                    {
+                        "id": 31611205943407,
+                        "discountVariantId": "39853373882479",
+                        "option1": "Default Title",
+                        "available": false,
+                        "inventoryPolicy": "deny"
+                    }
+                ],
+                "price": 4200,
+                "bulkQuantity": "12",
+                "unitName": "bottle",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            }
+        ],
+        "banner": {
+            "title": "A Complete Meal in a Bottle! Nutritious, Delicious and Sustainable.",
+            "description": [
+                {
+                    "title":"Plant-Based Protein",
+                    "description":"Soy protein is the most complete plant-based protein and contains all 9 essential amino acids."
+                },
+
+                {
+                    "title":"Vitamins & Minerals",
+                    "description":"Our products provide a dose of 28 vitamins & minerals that support metabolism, immunity and overall health."
+                },
+                {
+                    "title":"Slow Burning Carbs",
+                    "description":"We use natural, low-calorie carbohydrates that burn slower than other sugars, giving our shakes a low glycemic index."
+                },
+                {
+                    "title":"Healthy Fats",
+                    "description":"Fats are vital to maintaining cell structure, normal hormone production and also serve as an energy source."
+                }
+            ],
+            "buttonText": [
+                {
+                    "title":"Sustained Energy & Satiety",
+                    "subtitle":"The perfect balance of Micros and Macros",
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                },
+                {
+                    "title":"Strength & Muscle Health",
+                    "subtitle":"Complete Plant-Based Protein",
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                },
+                {
+                    "title":"Heart Health",
+                    "subtitle":"Healthy fats containing Omega-3 + Omega-6",
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                },
+                {
+                    "title":"Immune System Support",
+                    "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                },
+                {
+                    "title":"Hydration",
+                    "subtitle":"Potassium + Magnesium",
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                },
+                {
+                    "title":"Metabolism",
+                    "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                }
+            ],
+            "image": "https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/624b665bc020--video-2.jpg?v=1620058930",
+            "video": "https://player.vimeo.com/video/432326205"
+        }
+    },
+    "all-powder":{
+        "id": 261523472495,
+        "sortBy": "best-selling",
+        "url": "/collections/all-powder",
+        "products": [
+            {
+                "id": 1774714912879,
+                "title": "Soylent Powder - Original",
+                "main-description": "The complete-meal powder that started it all. Enjoy 20g of protein and a light, sweet taste. Mix Original into your favorite smoothie to create your own flavor profile or enjoy it on its own for a velvety-smooth meal.",
+                "url": "/products/powder-original",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_Powder_Original_Hero_{width}x.png?v=1624330335",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070721_soylent_FlavorCues_POWDERoriginal_A01_{width}x.jpg?v=1627315417",
+                "showUnitInPlp": true,
+                "subtitle": "7 Pouches/case",
+                "subscriptions": {
+                    "discount_percentage": "17.9699990000",
+                    "discount_product_id": "4523489689711",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                    "original_to_hidden_variant_map": {
+                        "31317121237103": {
+                            "discount_variant_id": 31951715172463,
+                            "discount_variant_price": "52.50"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "234958"
+                },
+                "variants": [
+                    {
+                        "id": 31317121237103,
+                        "discountVariantId": "31951715172463",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 6400,
+                "bulkQuantity": "35",
+                "unitName": "Meal",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 1764282499183,
+                "title": "Soylent Powder - Cacao",
+                "main-description": "Ideal for smoothies but delicious on its own, our Soylent Cacao powder gives you rich, chocolatey flavor with 20g of protein and 39 essential nutrients per serving.",
+                "url": "/products/powder-cacao",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_Powder_Cacao_Hero_{width}x.png?v=1624330532",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_POWDERcacao_A01_{width}x.jpg?v=1627315250",
+                "showUnitInPlp": true,
+                "subtitle": "7 Pouches/case",
+                "subscriptions": {
+                    "discount_percentage": "17.9699990000",
+                    "discount_product_id": "4600714166383",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                    "original_to_hidden_variant_map": {
+                        "31317121663087": {
+                            "discount_variant_id": 32229285232751,
+                            "discount_variant_price": "52.50"
+                        }
+                    },
+                    "shipping_interval_frequency": "15,30,45,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "234958"
+                },
+                "variants": [
+                    {
+                        "id": 31317121663087,
+                        "discountVariantId": "32229285232751",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 6400,
+                "bulkQuantity": "35",
+                "unitName": "meal",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "15",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            }
+        ],
+        "banner": {
+            "title": "Scoop. Shake. Enjoy. Balanced nutrition has never been easier.",
+            "description": [
+                {
+                    "title":"Plant-Based Protein",
+                    "description":"Soy protein is the most complete plant-based protein and contains all 9 essential amino acids."
+                },
+                {
+                    "title":"Vitamins & Minerals",
+                    "description":"Our products provide a dose of 28 vitamins & minerals that support metabolism, immunity and overall health."
+                },
+                {
+                    "title":"Slow Burning Carbs",
+                    "description":"We use natural, low-calorie carbohydrates that burn slower than other sugars, giving our shakes a low glycemic index."
+                },
+                {
+                    "title":"Healthy Fats",
+                    "description":"Fats are vital to maintaining cell structure, normal hormone production and also serve as an energy source."
+                }
+            ],
+            "buttonText": [
+                {
+                    "title":"Sustained Energy & Satiety",
+                    "subtitle":"The perfect balance of Micros and Macros",
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                },
+                {
+                    "title":"Strength & Muscle Health",
+                    "subtitle":"Complete Plant-Based Protein",
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                },
+                {
+                    "title":"Heart Health",
+                    "subtitle":"Healthy fats containing Omega-3 + Omega-6",
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                },
+                {
+                    "title":"Immune System Support",
+                    "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                },
+                {
+                    "title":"Hydration",
+                    "subtitle":"Potassium + Magnesium",
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                },
+                {
+                    "title":"Metabolism",
+                    "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                }
+            ],
+            "image": null,
+            "video": null
+        }
+    },
+    "squared":{
+        "id": 261523538031,
+        "sortBy": "best-selling",
+        "url": "/collections/squared",
+        "products": [
+            {
+                "id": 2169123471471,
+                "title": "Soylent Squared Chocolate Brownie",
+                "main-description": "A delicious and healthy snack you can take anywhere! These nutrient rich bars are packed with 6g of plant-based protein and 39 essential nutrients for a delicious, convenient, chocolate brownie treat that's only 100 calories. No melting, no fuss, just delicious.",
+                "url": "/products/squared-chocolate-brownie",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_061121_SDC_US_Squared_ChocolateBrownie_Hero_{width}x.png?v=1624330226",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SQUAREDChocolateBrownie_A01_{width}x.jpg?v=1627315291",
+                "showUnitInPlp": true,
+                "subtitle": "24 Squares",
+                "subscriptions": {
+                    "discount_percentage": "10.0000000000",
+                    "discount_product_id": "6561796718703",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "20371109085295": {
+                            "discount_variant_id": 39300269506671,
+                            "discount_variant_price": "22.50"
+                        }
+                    },
+                    "shipping_interval_frequency": "30,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "295174"
+                },
+                "variants": [
+                    {
+                        "id": 20371109085295,
+                        "discountVariantId": "39300269506671",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 2500,
+                "bulkQuantity": "24",
+                "unitName": "Square",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "30",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            },
+            {
+                "id": 6557974462575,
+                "title": "Soylent Squared Peanut Butter Chocolate Chip",
+                "main-description": "A delicious and healthy snack you can take anywhere! These nutrient rich bars are packed with 6g of plant-based protein and 39 essential nutrients for a delicious, convenient, peanut butter chocolate chip treat that's only 100 calories. No melting, no fuss, just delicious.",
+                "url": "/products/squared-peanut-butter-chocolate-chip",
+                "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_061121_SDC_US_Squared_PeanutButterChocolateChip_Hero_{width}x.png?v=1624330181",
+                "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SQUAREDPeanutButter_A01_{width}x.jpg?v=1627315308",
+                "showUnitInPlp": true,
+                "subtitle": "24 Squares",
+                "subscriptions": {
+                    "discount_percentage": "10.0000000000",
+                    "discount_product_id": "6558010736751",
+                    "has_subscription": "True",
+                    "is_subscription_only": "false",
+                    "original_to_hidden_variant_map": {
+                        "39287135338607": {
+                            "discount_variant_id": 39287268835439,
+                            "discount_variant_price": "22.50"
+                        }
+                    },
+                    "shipping_interval_frequency": "30,60",
+                    "shipping_interval_unit_type": "Days",
+                    "subscription_id": "295174"
+                },
+                "variants": [
+                    {
+                        "id": 39287135338607,
+                        "discountVariantId": "39287268835439",
+                        "option1": "Default Title",
+                        "available": true,
+                        "inventoryPolicy": "continue"
+                    }
+                ],
+                "price": 2500,
+                "bulkQuantity": "24",
+                "unitName": "Square",
+                "sizeOptions": null,
+                "state": {
+                    "quantity": 1,
+                    "frequency": "30",
+                    "purchaseType": "subscription",
+                    "isHover": false,
+                    "size": null
+                }
+            }
+        ],
+        "banner": {
+            "title": "Small in size, big on nutrition! Soylent Squared is a delicious and balanced 100 calorie snack.",
+            "description": [
+                {
+                    "title":"Plant-Based Protein",
+                    "description":"Soy protein is the most complete plant-based protein and contains all 9 essential amino acids."
+                },
+                {
+                    "title":"Vitamins & Minerals",
+                    "description":"Our products provide a dose of 28 vitamins & minerals that support metabolism, immunity and overall health."
+                },
+                {
+                    "title":"Slow Burning Carbs",
+                    "description":"We use natural, low-calorie carbohydrates that burn slower than other sugars, giving our shakes a low glycemic index."
+                },
+                {
+                    "title":"Healthy Fats",
+                    "description":"Fats are vital to maintaining cell structure, normal hormone production and also serve as an energy source."
+                }
+            ],
+            "buttonText": [
+                {
+                    "title":"Sustained Energy & Satiety",
+                    "subtitle":"The perfect balance of Micros and Macros",
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                },
+                {
+                    "title":"Strength & Muscle Health",
+                    "subtitle":"Complete Plant-Based Protein",
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                },
+                {
+                    "title":"Heart Health",
+                    "subtitle":"Healthy fats containing Omega-3 + Omega-6",
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                },
+                {
+                    "title":"Immune System Support",
+                    "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                },
+                {
+                    "title":"Hydration",
+                    "subtitle":"Potassium + Magnesium",
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                },
+                {
+                    "title":"Metabolism",
+                    "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                }
+            ],
+            "image": null,
+            "video": null
+        }
+    },
+    "all-products": [
+        {
+            "id": 4462614839407,
+            "title": "Soylent Drink Creamy Chocolate",
+            "main-description": "You will love the rich and creamy chocolatey goodness of our best selling nutrient-packed complete meal. Perfect for breakfast, lunch or anytime you need a nutritious meal that's delicious.",
+            "url": "/products/soylent-drink-creamy-chocolate",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CreamyChocolate_Hero_{width}x.png?v=1624371939",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CreamyChocolate_Splash_d4d64e90-08ef-464b-b79c-19395bcd3bc7_{width}x.png?v=1624371939",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721813413999",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611330855023": {
+                        "discount_variant_id": 39853367787631,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31611330855023,
+                    "discountVariantId": "39853367787631",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4489418014831,
+            "title": "Soylent Cafe Mocha",
+            "main-description": "This robust, chocolatey coffee drink is the perfect breakfast! This convenient, nutritious meal contains caffeine and L-theanine to jump start your day without the jitters.",
+            "url": "/products/soylent-cafe-mocha",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CafeMocha_Hero_{width}x.png?v=1624370741",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CopyofUntitled_{width}x.png?v=1624370741",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721742471279",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                "original_to_hidden_variant_map": {
+                    "31753518317679": {
+                        "discount_variant_id": 39853199851631,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31753518317679,
+                    "discountVariantId": "39853199851631",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "Bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462621163631,
+            "title": "Soylent Drink Mint Chocolate",
+            "main-description": "This delicious dessert-inspired flavor is packed with 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+            "url": "/products/soylent-drink-mint-chocolate-1",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_MintChocolate_Hero_{width}x.png?v=1624371949",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/MintChocolate_Splash_{width}x.png?v=1624371949",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721813184623",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611342782575": {
+                        "discount_variant_id": 39853366837359,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31611342782575,
+                    "discountVariantId": "39853366837359",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462627749999,
+            "title": "Soylent Drink Original",
+            "main-description": "The flavor that started it all — light, sweet, and velvety smooth. A ready-to-drink meal offering 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+            "url": "/products/soylent-drink-original",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Original_Hero_{width}x.png?v=1624329750",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070721_soylent_FlavorCues_ORIGINAL_A01_{width}x.jpg?v=1627315367",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "17.1700000000",
+                "discount_product_id": "6720826867823",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611361853551": {
+                        "discount_variant_id": 39851721654383,
+                        "discount_variant_price": "32.30"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254648"
+            },
+            "variants": [
+                {
+                    "id": 31611361853551,
+                    "discountVariantId": "39851721654383",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 3900,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 753752408170,
+            "title": "Soylent Cafe Chai",
+            "main-description": "Sweet, spice and everything nice. The perfect breakfast, convenient, nutritious complete meal with caffeine and L-theanine to jump start your day without the jitters.",
+            "url": "/products/cafe-chai",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CafeChai_Hero_{width}x.png?v=1624371860",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/CafeChai_Splash_{width}x.png?v=1624371862",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721813512303",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "8138838868074": {
+                        "discount_variant_id": 39853367885935,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 8138838868074,
+                    "discountVariantId": "39853367885935",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "deny"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "Bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462641447023,
+            "title": "Soylent Drink Vanilla",
+            "main-description": "A creamy vanilla shake that will remind you of childhood milkshakes! However, this shake comes with 20g of plant-based protein, 39 essential nutrients and only 1g of sugar.",
+            "url": "/products/soylent-drink-vanilla",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Vanilla_Hero_{width}x.png?v=1624371972",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Vanilla_Splash_{width}x.png?v=1624371972",
+            "showUnitInPlp": false,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721811218543",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611393310831": {
+                        "discount_variant_id": 39853364772975,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31611393310831,
+                    "discountVariantId": "39853364772975",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462794604655,
+            "title": "Soylent Neapolitan Variety Pack",
+            "main-description": "Get your favorite flavor fix with our Soylent Neapolitan Variety Pack. Featuring Creamy Chocolate, Strawberry and classic Vanilla. Each bottle contains 20g of plant-based protein, 39 essential nutrients, and only 1g of sugar.",
+            "url": "/products/soylent-drink-variety-pack",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Neapolitan_Hero_1_{width}x.png?v=1627315347",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_VARIETYPACKneapolitan_A01_{width}x.jpg?v=1627315347",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.3300000000",
+                "discount_product_id": "4600714330223",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611875459183": {
+                        "discount_variant_id": 32229285560431,
+                        "discount_variant_price": "39.90"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254654"
+            },
+            "variants": [
+                {
+                    "id": 31611875459183,
+                    "discountVariantId": "32229285560431",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4500,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4579693330543,
+            "title": "Soylent Nutrition Shake Sampler Pack",
+            "main-description": "Can’t decide which flavor to choose? Try our Soylent Drink Sampler Pack with six of our delicious flavors. Featuring Creamy Chocolate, Strawberry, Banana, Mint Chocolate, Vanilla and Cafe Mocha.",
+            "url": "/products/soylent-shake-sampler-pack",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Sampler_Hero_2_{width}x.png?v=1627315268",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SAMPLERPACK_A01_{width}x.jpg?v=1627315268",
+            "showUnitInPlp": true,
+            "subtitle": "6 bottles",
+            "subscriptions": {},
+            "variants": [
+                {
+                    "id": 32172953796719,
+                    "discountVariantId": null,
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 2500,
+            "bulkQuantity": "6",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": null,
+                "purchaseType": "onetime",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4605292609647,
+            "title": "Soylent Complete Protein Chocolate",
+            "main-description": "Our new plant-based, high protein nutrition shake delivers an impressive 30g of complete plant-based protein in just 11oz. This creamy shake also includes 9 essential amino acids, 5g of BCAAs, and 39 essential with 0g of sugar!",
+            "url": "/products/soylent-complete-protein-chocolate",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_CompleteProtein_Chocolate_Hero_{width}x.png?v=1627315223",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_COMPLETEPROTEINchocolate_A01_{width}x.jpg?v=1627315226",
+            "showUnitInPlp": false,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "10.0000000000",
+                "discount_product_id": "4607849562223",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "32248221892719": {
+                        "discount_variant_id": 32255099994223,
+                        "discount_variant_price": "29.70"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "287319"
+            },
+            "variants": [
+                {
+                    "id": 32248221892719,
+                    "discountVariantId": "32255099994223",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 3300,
+            "bulkQuantity": "12",
+            "unitName": "Bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4605292675183,
+            "title": "Soylent Complete Energy Chocolate",
+            "main-description": "This is not your typical energy drink. It is the first complete nutrition nootropics shake to fuel your mind and body. Formulated with a proprietary blend of b vitamins, caffeine, l-theanine, l-tyrosine and alpha-GPC plus 15g of plant based protein and 39 essential nutrients. A delicious way to keep you going throughout the day without sugar highs and lows.",
+            "url": "/products/soylent-complete-energy-chocolate",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_CompleteEnergy_Chocolate_Hero_{width}x.png?v=1627315201",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_COMPLETEENERGYchocolate_A01_{width}x.jpg?v=1627315204",
+            "showUnitInPlp": false,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "10.0000000000",
+                "discount_product_id": "4607849529455",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "32248221958255": {
+                        "discount_variant_id": 32255099961455,
+                        "discount_variant_price": "29.70"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "287319"
+            },
+            "variants": [
+                {
+                    "id": 32248221958255,
+                    "discountVariantId": "32255099961455",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 3300,
+            "bulkQuantity": "12",
+            "unitName": "Bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4572886302831,
+            "title": "Soylent Chocolate Lover's Variety Pack",
+            "main-description": "Get your favorite flavor fix with our Soylent Chocolate Lover’s Variety Pack. Featuring Creamy Chocolate, Cafe Mocha and Mint Chocolate. Each bottle contains 20g of plant-based protein, 39 essential nutrients, and only 1g of sugar.",
+            "url": "/products/soylent-chocolate-lovers-variety-pack",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_ChocLovers_Hero_2_{width}x.png?v=1627315327",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_VARIETYPACKchocolatelovers_A01_{width}x.jpg?v=1627315327",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.3300000000",
+                "discount_product_id": "4575693537391",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "32122672218223": {
+                        "discount_variant_id": 32144408805487,
+                        "discount_variant_price": "39.90"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254654"
+            },
+            "variants": [
+                {
+                    "id": 32122672218223,
+                    "discountVariantId": "32144408805487",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 4500,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462631157871,
+            "title": "Soylent Drink Strawberry",
+            "main-description": "Our sweet strawberry flavor has a fruity finish and only 1g of sugar. A ready-to-drink meal offering 20g of plant-based protein and 39 essential nutrients.",
+            "url": "/products/soylent-drink-strawberry",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Strawberry_Hero_{width}x.png?v=1624371961",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Strawberry_Splash_{width}x.png?v=1624371961",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721814036591",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611370012783": {
+                        "discount_variant_id": 39853373161583,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31611370012783,
+                    "discountVariantId": "39853373161583",
+                    "option1": "Default Title",
+                    "available": false,
+                    "inventoryPolicy": "deny"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 4462559559791,
+            "title": "Soylent Drink Banana",
+            "main-description": "Our creamy banana flavor is the perfect treat and isn't overpowering. This delicious ready-to-drink meal provides 20g of plant-based protein and 39 essential nutrients.",
+            "url": "/products/soylent-drink-banana",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_Banana_Hero_{width}x.png?v=1624371930",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/Banana_Splash_{width}x.png?v=1624371930",
+            "showUnitInPlp": true,
+            "subtitle": "12 bottles",
+            "subscriptions": {
+                "discount_percentage": "11.7800000000",
+                "discount_product_id": "6721814102127",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "31611205943407": {
+                        "discount_variant_id": 39853373882479,
+                        "discount_variant_price": "37.05"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "254647"
+            },
+            "variants": [
+                {
+                    "id": 31611205943407,
+                    "discountVariantId": "39853373882479",
+                    "option1": "Default Title",
+                    "available": false,
+                    "inventoryPolicy": "deny"
+                }
+            ],
+            "price": 4200,
+            "bulkQuantity": "12",
+            "unitName": "bottle",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 2169123471471,
+            "title": "Soylent Squared Chocolate Brownie",
+            "main-description": "A delicious and healthy snack you can take anywhere! These nutrient rich bars are packed with 6g of plant-based protein and 39 essential nutrients for a delicious, convenient, chocolate brownie treat that's only 100 calories. No melting, no fuss, just delicious.",
+            "url": "/products/squared-chocolate-brownie",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_061121_SDC_US_Squared_ChocolateBrownie_Hero_{width}x.png?v=1624330226",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SQUAREDChocolateBrownie_A01_{width}x.jpg?v=1627315291",
+            "showUnitInPlp": true,
+            "subtitle": "24 Squares",
+            "subscriptions": {
+                "discount_percentage": "10.0000000000",
+                "discount_product_id": "6561796718703",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "20371109085295": {
+                        "discount_variant_id": 39300269506671,
+                        "discount_variant_price": "22.50"
+                    }
+                },
+                "shipping_interval_frequency": "30,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "295174"
+            },
+            "variants": [
+                {
+                    "id": 20371109085295,
+                    "discountVariantId": "39300269506671",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 2500,
+            "bulkQuantity": "24",
+            "unitName": "Square",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "30",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 6557974462575,
+            "title": "Soylent Squared Peanut Butter Chocolate Chip",
+            "main-description": "A delicious and healthy snack you can take anywhere! These nutrient rich bars are packed with 6g of plant-based protein and 39 essential nutrients for a delicious, convenient, peanut butter chocolate chip treat that's only 100 calories. No melting, no fuss, just delicious.",
+            "url": "/products/squared-peanut-butter-chocolate-chip",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_061121_SDC_US_Squared_PeanutButterChocolateChip_Hero_{width}x.png?v=1624330181",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_SQUAREDPeanutButter_A01_{width}x.jpg?v=1627315308",
+            "showUnitInPlp": true,
+            "subtitle": "24 Squares",
+            "subscriptions": {
+                "discount_percentage": "10.0000000000",
+                "discount_product_id": "6558010736751",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "original_to_hidden_variant_map": {
+                    "39287135338607": {
+                        "discount_variant_id": 39287268835439,
+                        "discount_variant_price": "22.50"
+                    }
+                },
+                "shipping_interval_frequency": "30,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "295174"
+            },
+            "variants": [
+                {
+                    "id": 39287135338607,
+                    "discountVariantId": "39287268835439",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 2500,
+            "bulkQuantity": "24",
+            "unitName": "Square",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "30",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 1774714912879,
+            "title": "Soylent Powder - Original",
+            "main-description": "The complete-meal powder that started it all. Enjoy 20g of protein and a light, sweet taste. Mix Original into your favorite smoothie to create your own flavor profile or enjoy it on its own for a velvety-smooth meal.",
+            "url": "/products/powder-original",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_Powder_Original_Hero_{width}x.png?v=1624330335",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070721_soylent_FlavorCues_POWDERoriginal_A01_{width}x.jpg?v=1627315417",
+            "showUnitInPlp": true,
+            "subtitle": "7 Pouches/case",
+            "subscriptions": {
+                "discount_percentage": "17.9699990000",
+                "discount_product_id": "4523489689711",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                "original_to_hidden_variant_map": {
+                    "31317121237103": {
+                        "discount_variant_id": 31951715172463,
+                        "discount_variant_price": "52.50"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "234958"
+            },
+            "variants": [
+                {
+                    "id": 31317121237103,
+                    "discountVariantId": "31951715172463",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 6400,
+            "bulkQuantity": "35",
+            "unitName": "Meal",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        },
+        {
+            "id": 1764282499183,
+            "title": "Soylent Powder - Cacao",
+            "main-description": "Ideal for smoothies but delicious on its own, our Soylent Cacao powder gives you rich, chocolatey flavor with 20g of protein and 39 essential nutrients per serving.",
+            "url": "/products/powder-cacao",
+            "featuredImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_Powder_Cacao_Hero_{width}x.png?v=1624330532",
+            "alternateImage": "//cdn.shopify.com/s/files/1/0003/5933/3902/products/070121_soylent_FlavorCues_POWDERcacao_A01_{width}x.jpg?v=1627315250",
+            "showUnitInPlp": true,
+            "subtitle": "7 Pouches/case",
+            "subscriptions": {
+                "discount_percentage": "17.9699990000",
+                "discount_product_id": "4600714166383",
+                "has_subscription": "True",
+                "is_subscription_only": "false",
+                "last_sync_timestamp": "2020-04-08 22:48:14.961164",
+                "original_to_hidden_variant_map": {
+                    "31317121663087": {
+                        "discount_variant_id": 32229285232751,
+                        "discount_variant_price": "52.50"
+                    }
+                },
+                "shipping_interval_frequency": "15,30,45,60",
+                "shipping_interval_unit_type": "Days",
+                "subscription_id": "234958"
+            },
+            "variants": [
+                {
+                    "id": 31317121663087,
+                    "discountVariantId": "32229285232751",
+                    "option1": "Default Title",
+                    "available": true,
+                    "inventoryPolicy": "continue"
+                }
+            ],
+            "price": 6400,
+            "bulkQuantity": "35",
+            "unitName": "meal",
+            "sizeOptions": null,
+            "state": {
+                "quantity": 1,
+                "frequency": "15",
+                "purchaseType": "subscription",
+                "isHover": false,
+                "size": null
+            }
+        }
+    ],
+    "faq":[
+        {
+            "question":"What do you mean by \"Complete Meal\"?",
+            "answer":"A combination of complete plant-based protein, slow burning carbs, healthy fats, and a variety of micronutrients are all essential nutrients that our body cannot produce and we must get them through our diet. Soylent products can be classified as a \"complete meal\" or \"complete nutrition\" because they contain all 39 essential nutrients."
+        },
+        {
+            "question":"How much caffeine is there in Soylent Ready-to-Drink products?",
+            "answer":"Caffeine is found naturally in cocoa beans, so all of our products that include chocolate contain approximately 15 mg of caffeine or less. Soylent Cafe Mocha contains approximately 150mg caffeine, and Soylent Cafe Chai contains approximately 30mg caffeine. Caffeinated Soylent Shakes (the Cafe line) blend caffeine and L-theanine, an amino acid found in green tea, to give you the boost of energy you need without the jitters or the afternoon crash."
+        },
+        {
+            "question":"How much Soylent should I drink? Can I replace every meal?",
+            "answer":"While Soylent can replace any meal, it is not intended to replace every meal. If you are just getting started, try incorporating Soylent gradually into a balanced diet. As with any change in diet or health, we recommend talking to your health care provider or nutritionist to determine if Soylent is a good fit for your needs. Soylent can help you reach your nutrition goals over the course of a day or week. Consider adding Soylent to your diet to ensure you are getting the nutrition you need to be healthy."
+        },
+        {
+            "question":"How long will my Soylent last?",
+            "answer":"Soylent that is unopened can be stored at room temperature with a shelf-life of up to one year. While most users choose to refrigerate their Soylent before enjoying it, it isn’t required. Heat should not cause Soylent to spoil, however, if temperatures go above 110 degrees the vitamins & nutrients may begin to break down over time. The \"Best By\" date listed on your Soylent is not an expiration date but rather the date where we have data for best taste and texture quality. Consuming our product after the \"Best By\" date should not pose a food safety concern."
+        },
+        {
+            "question":"Why \"soy\"?",
+            "answer":"We use soy protein isolate in our formulas because it’s an excellent source of high-quality, plant-based protein! Soy is also a complete source of protein, which means it contains all the essential amino acids needed for healthy, functioning bodies. Soy has many health benefits including helping to lower the glycemic index of our product, higher digestibility, not to mention it provides a smoother texture when consumed and is more sustainable for the environment. You can read more about why we use Soy Protein by visiting our blog!"
+        },
+        {
+            "question":"Does Soylent contain any artificial flavors or sweeteners?",
+            "answer":"We use a carbohydrate blend which includes allulose. Allulose is a naturally occurring low-calorie carbohydrate that offers the taste and mouthfeel of sugar with 1/10th the calories and no added sugar. It does not raise blood glucose or insulin levels and actually moderates our insulin response to other carbs. Allulose is not a sugar alcohol and can naturally be found in figs, raisins, molasses and maple syrup and it can also be made through fermentation of several sources of carbohydrates. In addition, our shakes also contain sucralose which improves the taste of our products, without adding additional calories. Our Complete Meal shakes have no artificial flavors."
+        }
+        
+    ]
+
+}
