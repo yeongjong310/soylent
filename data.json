@@ -39,7 +39,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -130,7 +130,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -175,7 +175,7 @@
                 ],
                 "price": 3900,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -265,7 +265,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -310,7 +310,7 @@
                 ],
                 "price": 4500,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -341,7 +341,7 @@
                 ],
                 "price": 2500,
                 "bulkQuantity": "6",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -476,7 +476,7 @@
                 ],
                 "price": 4500,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -521,7 +521,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -566,7 +566,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -721,7 +721,7 @@
                 ],
                 "price": 6400,
                 "bulkQuantity": "35",
-                "unitName": "meal",
+                "unitName": "MSeal",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,

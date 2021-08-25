@@ -19,14 +19,21 @@ class Product:
                 if item['url'] == f"/products/{slug}":
                     for_category = item['unitName']
                     result['product'] = item
-            
-            if for_category=='Bottle':
-                result['banner']=json_data['all-drinks']['banner']
+            if for_category=='bottle':
+                category = 'all-drinks'
             elif for_category=='Meal':
-                result['banner']=json_data['all-powder']['banner']
+                category = 'all-powder'
             elif for_category=='Square':
-                result['banner']=json_data['squared']['banner'] 
+                category = 'squared'
                 
+            result['banner'] = json_data[category]['banner']
+            result['flavors'] = [
+                {
+                    'url': item['url'], 
+                    'title': item['title'],
+                }
+                for item in json_data[category]['products']
+            ]
             return result
 
         def get_all_categories():
