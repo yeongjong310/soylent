@@ -54,3 +54,7 @@ class Product:
             }
 
             return result
+        
+        @app.route('/api/recommend')
+        def get_recommendation():
+            return {'items': sample(json_data['all-products'], 3)}
