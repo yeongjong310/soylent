@@ -1,5 +1,6 @@
 from flask import request, jsonify
 import json
+from random import sample
 
 class Product:
     def __init__(self, app):
@@ -28,10 +29,22 @@ class Product:
                 
             return result
 
+        def get_all_categories():
+            all_keys = list(json_data.keys())
+            all_keys.remove('faq')
+            all_keys.remove('all-products')
+            return all_keys
+
         @app.route('/api/products/categories')
-        def product_list_url():
-            return {'categories': list(json_data.keys())}
+        def product_list():
+            return {'categories': get_all_categories()}
 
         @app.route('/api/faq/')
         def get_faq():
             return {'faq': json_data['faq']}
+
+        @app.route('/api/featured')
+        def get_featured():
+            categories = get_all_categories()
+            result = {category: sample(json_data[category]['products'], 6) if len(json_data[category]['products'])>=6 else json_data[category]['products'] for category in categories}
+            return result
