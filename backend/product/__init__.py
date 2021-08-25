@@ -34,6 +34,7 @@ class Product:
                 }
                 for item in json_data[category]['products']
             ]
+            result['nutrition'] = json_data[category]['nutrition']
             return result
 
         def get_all_categories():

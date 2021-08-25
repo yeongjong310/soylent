@@ -632,7 +632,45 @@
             ],
             "image": "https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/624b665bc020--video-2.jpg?v=1620058930",
             "video": "https://player.vimeo.com/video/432326205"
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/NoSugar_Small_636ffdd2-ea32-4469-9529-1aacf89413fe_100x.jpg?v=1623952405",
+                "text": "1g Sugar"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text": "400 Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/DNA_4_100x.png?v=1622661738",
+                "text": "Gluten-Free"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Kosher01_Small_744b9155-fc79-4a21-8fd0-25fe18de13a0_100x.png?v=1623955987",
+                "text": "Kosher"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "all-powder":{
         "id": 261523472495,
@@ -786,7 +824,33 @@
             ],
             "image": null,
             "video": null
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img":"//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text":"Customizable Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "squared":{
         "id": 261523538031,
@@ -938,7 +1002,41 @@
             ],
             "image": null,
             "video": null
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/NoSugar_Small_636ffdd2-ea32-4469-9529-1aacf89413fe_100x.jpg?v=1623952405",
+                "text": "1g Sugar"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text": "100 Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/DNA_4_100x.png?v=1622661738",
+                "text": "Gluten-Free"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "all-products": [
         {
