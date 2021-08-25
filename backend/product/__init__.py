@@ -46,5 +46,11 @@ class Product:
         @app.route('/api/featured')
         def get_featured():
             categories = get_all_categories()
-            result = {category: sample(json_data[category]['products'], 6) if len(json_data[category]['products'])>=6 else json_data[category]['products'] for category in categories}
+            result = {
+                category: sample(json_data[category]['products'], 6) 
+                if len(json_data[category]['products'])>=6 
+                else json_data[category]['products'] 
+                for category in categories
+            }
+
             return result
