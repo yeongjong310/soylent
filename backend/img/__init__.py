@@ -11,9 +11,9 @@ class Img:
         # Important
         # You must fill in this variables
         # Follow the instruction.md
-        AWS_ACCESS_KEY = ""
-        AWS_SECRET_KEY = ""
-        BUCKET_NAME = ""
+        AWS_ACCESS_KEY = "AKIA4RUYARLFF7AHJMWU"
+        AWS_SECRET_KEY = "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"
+        BUCKET_NAME = "nklcb-bucket-tory"
         
         s3 = boto3.client('s3',
                 aws_access_key_id = AWS_ACCESS_KEY,

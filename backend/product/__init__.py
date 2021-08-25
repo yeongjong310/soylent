@@ -7,10 +7,12 @@ class Product:
         with open('./data.json') as json_file:
             json_data = json.load(json_file)
 
-        @app.route('/api/collections/<string:category>')
+        # category마다 다른 메뉴 아이템 
+        @app.route('/api/collections/<string:category>') 
         def category_items(category):
             return json_data[category]
 
+        # 아이템 디테일 내용
         @app.route('/api/products/<string:slug>')
         def product_detail(slug):
             result = {}
@@ -20,14 +22,15 @@ class Product:
                     result['product'] = item
             
             if for_category=='Bottle':
-                result['banner']=json_data['all_drinks']['banner']
+                result['banner']=json_data['all-drinks']['banner']
             elif for_category=='Meal':
-                result['banner']=json_data['all_powder']['banner']
+                result['banner']=json_data['all-powder']['banner']
             elif for_category=='Square':
                 result['banner']=json_data['squared']['banner'] 
                 
             return result
 
+        # 카테고리 
         @app.route('/api/products/categories')
         def product_list_url():
             return {'categories': list(json_data.keys())}

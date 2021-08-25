@@ -13,7 +13,7 @@ class DevConfig(Config):
     # You must fill host value
     # Follow instruction.md
     MONGODB_SETTINGS = {
-        'host': ''
+        'host': 'mongodb+srv://admin:nklcb-pw1234@cluster0.uxq6u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     }
 
     JWT_SECRET_KEY = "nklcb"
