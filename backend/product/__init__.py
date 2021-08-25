@@ -20,9 +20,9 @@ class Product:
                     result['product'] = item
             
             if for_category=='Bottle':
-                result['banner']=json_data['all_drinks']['banner']
+                result['banner']=json_data['all-drinks']['banner']
             elif for_category=='Meal':
-                result['banner']=json_data['all_powder']['banner']
+                result['banner']=json_data['all-powder']['banner']
             elif for_category=='Square':
                 result['banner']=json_data['squared']['banner'] 
                 
