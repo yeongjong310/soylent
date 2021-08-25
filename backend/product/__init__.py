@@ -19,14 +19,22 @@ class Product:
                 if item['url'] == f"/products/{slug}":
                     for_category = item['unitName']
                     result['product'] = item
-            
-            if for_category=='Bottle':
-                result['banner']=json_data['all-drinks']['banner']
+            if for_category=='bottle':
+                category = 'all-drinks'
             elif for_category=='Meal':
-                result['banner']=json_data['all-powder']['banner']
+                category = 'all-powder'
             elif for_category=='Square':
-                result['banner']=json_data['squared']['banner'] 
+                category = 'squared'
                 
+            result['banner'] = json_data[category]['banner']
+            result['flavors'] = [
+                {
+                    'url': item['url'], 
+                    'title': item['title'],
+                }
+                for item in json_data[category]['products']
+            ]
+            result['nutrition'] = json_data[category]['nutrition']
             return result
 
         def get_all_categories():
@@ -46,5 +54,15 @@ class Product:
         @app.route('/api/featured')
         def get_featured():
             categories = get_all_categories()
-            result = {category: sample(json_data[category]['products'], 6) if len(json_data[category]['products'])>=6 else json_data[category]['products'] for category in categories}
+            result = {
+                category: sample(json_data[category]['products'], 6) 
+                if len(json_data[category]['products'])>=6 
+                else json_data[category]['products'] 
+                for category in categories
+            }
+
             return result
+        
+        @app.route('/api/recommend')
+        def get_recommendation():
+            return {'items': sample(json_data['all-products'], 3)}
