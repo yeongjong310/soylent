@@ -5,7 +5,7 @@ from random import sample
 class Product:
     def __init__(self, app):
         
-        with open('./data.json') as json_file:
+        with open('./data.json', encoding='utf-8') as json_file:
             json_data = json.load(json_file)
 
         @app.route('/api/collections/<string:category>')
