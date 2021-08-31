@@ -11,9 +11,9 @@ export default function Nav({ className, children }: NavProps): ReactElement {
       {/* <SkipToContent /> */}
       <nav
         className={className}>
-        <div className="navItems">
+        <ul className="navItems">
           { children }
-        </div>
+        </ul>
       </nav>
     </>
   )
