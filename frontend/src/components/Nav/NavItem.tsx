@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 interface Props {
   text: string;
@@ -8,9 +8,8 @@ interface Props {
 
 export default function NavItem({ text, href }: Props): ReactElement {
   return (
-    <>
-     <h2>{text}</h2> 
-     <NavLink to={href}></NavLink>
-    </>
+    <li>
+      <Link to={href}>{text}</Link>
+    </li>
   )
 }
