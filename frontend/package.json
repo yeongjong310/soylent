@@ -41,6 +41,17 @@
       }
     ]
   },
+  "babel": {
+    "plugins": [
+      [
+        "babel-plugin-styled-components",
+        {
+          "displayName": true,
+          "pure": true
+        }
+      ]
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -61,6 +72,8 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.7",
     "@types/react-router-dom": "^5.1.8",
+    "@types/styled-components": "^5.1.13",
+    "babel-plugin-styled-components": "^1.13.2",
     "styled-components": "^5.3.1"
   }
 }
