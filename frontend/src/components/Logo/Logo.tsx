@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as LogoSvg } from './img/logo.svg';
 import { StyledLogo } from './Logo.styled';
+import { theme } from '../../styles/theme';
 
 interface LogoProps {
   href: string,
@@ -13,7 +14,7 @@ function Logo({ href, width, color }: LogoProps) {
     <StyledLogo href={href}>
       <LogoSvg 
         width={width} 
-        fill={color === 'black' ? '#000000' : '#ffffff' } />
+        fill={color === 'black' ? theme.text.main : theme.colors.white } />
     </StyledLogo>
   );
 }

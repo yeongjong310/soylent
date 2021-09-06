@@ -4,7 +4,7 @@ import { theme } from './theme';
 export const GlobalStyle = createGlobalStyle`
  :root {
    font-size: 16px;
- }
+  }
   * {
     box-sizing: border-box;
   }
@@ -17,10 +17,20 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Apercu', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 
       'Helvetica Neue', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
       , sans-serif;
-    color: ${ theme.soylent.black };
+    color: ${ theme.text.main };
   }
+
+  // normalize
   ul {
     list-style-type: none;
     padding-inline-start: 0; 
+  }
+  button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background: none
   }
 `
