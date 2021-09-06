@@ -1,0 +1,10 @@
+export const typeIs = (o: any) => ({}.toString.call(o).toLowerCase().slice(8, -1));
+export const isNull = (o: any) => typeIs(o) === 'null';
+export const isUndefined = (o: any) => typeIs(o) === 'undefined';
+export const isString = (o: any) => typeIs(o) === 'string';
+export const isNumber = (o: any) => typeIs(o) === 'number';
+export const isBoolean = (o: any) => typeIs(o) === 'boolean';
+export const isSymbol = (o: any) => typeIs(o) === 'symbol';
+export const isFunction = (o: any) => typeIs(o) === 'function';
+export const isArray = (o: any) => typeIs(o) === 'array';
+export const isObject = (o: any) => typeIs(o) === 'object';
