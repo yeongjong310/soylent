@@ -4,12 +4,9 @@ import {
   Route,
   Redirect,
   Switch,
-  NavLink,
-  Link
 } from 'react-router-dom';
 import { Header } from 'containers';
-import { Logo, Nav, UserContents } from 'components';
-import TopBanner from 'components/TopBanner/TopBanner';
+import { BurgerButton, Logo, Nav, TopBanner, UserContents } from 'components';
 import { StyledApp } from './App.styled';
 
 export default function App() {
@@ -19,8 +16,9 @@ export default function App() {
       <StyledApp>
         <TopBanner/>
         <Header>
-          <Logo color='black' />
           <Nav />
+          <BurgerButton />
+          <Logo color='black' />
           <UserContents />
         </Header>
       </StyledApp>
