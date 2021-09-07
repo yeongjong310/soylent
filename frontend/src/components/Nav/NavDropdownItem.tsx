@@ -1,5 +1,6 @@
 import React, { ReactElement, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { StyledNavDropdownItem } from './NavDropdownItem.styled'
 
 interface dropdownContentProp {
   text: string;
@@ -19,40 +20,62 @@ interface dropdownNavItemType {
 }
 
 export default function DropdownItem({
-  href,
   text,
   dropdownIds,
   dropdownContent
 }: dropdownNavItemType): ReactElement {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleisOpenStateByClick:React.MouseEventHandler<HTMLAnchorElement> = () => {
+    setIsOpen(!isOpen);
+  }
+
+  const toggleisOpenStateByKeyUp:React.KeyboardEventHandler<HTMLAnchorElement> = (e) => {
+    if (e.code !== 'Space' && e.code !== 'Enter') return;
+    console.log(e.code);
+    setIsOpen(!isOpen);
+  }
 
   return (
-    <li>
-      <a role='button'>{text}</a>
-      {
-        <div className="dropdown">
-          <div className="dropdown__menu_list--image">
-            {
+    <StyledNavDropdownItem>
+      <a 
+        tabIndex={0}
+        className='dropdown__title' 
+        onClick={toggleisOpenStateByClick}
+        onKeyUp={toggleisOpenStateByKeyUp}
+        role='menuitem' 
+        aria-label="navigation dropdown item"
+        aria-haspopup="true"
+      >
+        {text}
+        <span className="dropdown__icon--plus"></span>
+      </a>
+      {isOpen && 
+        <div className='dropdown__item-wrapper'>
+          <div className='dropdown__item--images'>
+            { 
               dropdownIds?.imageIds.map(dropdownId => {
                 if (dropdownContent) {
                   return (
                     <Link
                       to={dropdownContent?.[dropdownId].href}
-                      className="dropdown__menu--item">
+                      className='dropdown__item--text'>
                       {dropdownContent?.[dropdownId].text}
+                      <span className="navitem-icon"></span>
                     </Link>
                   )
                 }
               })
             }
           </div>
-          <div className="dropdown__menu_list--text">
+          <div className='dropdown__item--texts'>
             {
               dropdownIds?.textIds.map(dropdownId => {
                 if (dropdownContent) {
                   return (
                     <Link
                       to={dropdownContent?.[dropdownId].href}
-                      className="dropdown__menu--item">
+                      className='dropdown__item--item'>
                       {dropdownContent?.[dropdownId].text}
                     </Link>
                   )
@@ -62,6 +85,6 @@ export default function DropdownItem({
           </div>
         </div>
       }
-    </li>
+    </StyledNavDropdownItem>
   )
 }
