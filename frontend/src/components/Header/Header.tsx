@@ -1,19 +1,18 @@
 import React from 'react';
+import { StyledHeader } from './Header.styled';
 
 interface HeaderProps {
   className?: string,
   children: React.ReactNode
 }
 
-function Header ({ className, children, ...restProps }: HeaderProps) {
+export default function Header ({ className, children, ...restProps }: HeaderProps) {
   return (
-    <header 
+    <StyledHeader
       className={className}
       {...restProps}
       >
       {children}
-    </header>
+    </StyledHeader>
   );
 }
-
-export default Header;
