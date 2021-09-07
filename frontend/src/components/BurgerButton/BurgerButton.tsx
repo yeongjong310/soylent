@@ -1,9 +1,13 @@
 import React from 'react';
-import { StyledBurgerButton } from './BurgerButton.styled';
+import { BurgerButtonProps, StyledBurgerButton } from './BurgerButton.styled';
 
-export default function BurgerButton() {
+
+export default function BurgerButton({ isOpen, onClick }: BurgerButtonProps) {
   return (
-    <StyledBurgerButton>
+    <StyledBurgerButton
+      isOpen={isOpen}
+      onClick={ onClick }
+    >
       <div></div>
     </StyledBurgerButton>
   )
