@@ -5,17 +5,16 @@ import {
   Redirect,
   Switch,
 } from 'react-router-dom';
-import { Header } from 'containers';
-import { BurgerButton, Logo, Nav, TopBanner, UserContents } from 'components';
-import { StyledApp } from './App.styled';
+import { Header, BurgerButton, Logo, Nav, TopBanner, UserContents } from 'components';
+import { Landing } from 'pages';
 import Styled from 'styled-components/macro';
 
 export default function App() {
-
   return (
     <Router>
-      <StyledApp>
+      <div className='app'>
         <TopBanner/>
+
         <Header>
           <Nav />
           <BurgerButton />
@@ -33,7 +32,12 @@ export default function App() {
           </h1>
           <UserContents />
         </Header>
-      </StyledApp>
+        
+        <Switch>
+          <Route exact path='/' component={Landing} />
+        </Switch> 
+        
+      </div>
     </Router>
   );
 }
