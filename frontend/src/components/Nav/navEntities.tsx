@@ -1,12 +1,13 @@
-interface dropdownContentsType {
-  [key: string]: {
-    [key: string]: {
-      text: string,
-      href: string
-    }
-  }
+interface dropdownItemType {
+  text: string;
+  href: string;
 }
 
+interface dropdownContentsType {
+  [key: string]: {
+    [key: string]: dropdownItemType
+  }
+}
 const dropdownContents: dropdownContentsType = {
   'drinks': {
     'shopAll': {
@@ -58,7 +59,7 @@ const dropdownContents: dropdownContentsType = {
   },
 }
 
-type navItemType= {
+export interface navItemType {
   id: string,
   text: string,
   href?: string,
@@ -98,4 +99,4 @@ const navItems: navItemType[] = [
   },
 ]
 
-export default { navItems, dropdownContents };
+export { navItems, dropdownContents };
