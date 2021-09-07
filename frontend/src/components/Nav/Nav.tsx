@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from 'react';
+import React, { ReactElement } from 'react';
 import { StyledNav } from './Nav.styled';
 import { navItems, dropdownContents } from './navEntities';
 import NavItem from './NavItem';
