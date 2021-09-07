@@ -1,20 +1,45 @@
-import React, { ReactElement, ReactNode } from 'react'
-
+import React, { ReactElement, useState } from 'react';
+import { StyledNav } from './Nav.styled';
+import { navItems, dropdownContents } from './navEntities';
+import NavItem from './NavItem';
+import NavDropdownItem from './NavDropdownItem';
+import { classNames } from 'utils/classNames';
 interface NavProps {
-  className?: string,
-  children: ReactNode
+  className: string,
+  style?: object
 }
 
-export default function Nav({ className, children }: NavProps): ReactElement {
+export default function Nav({ className, style, ...restProps }: NavProps): ReactElement {
+
   return (
     <>
       {/* <SkipToContent /> */}
-      <nav
-        className={className}>
-        <ul className="navItems">
-          { children }
+      <StyledNav
+        style = {style}
+        className={classNames(className, 'active')}
+        {...restProps}
+      >
+        <ul role="menubar" className="nav-items">
+          {navItems.map(({ id, text, href, dropdownIds }) => { 
+              return ( 
+                dropdownIds 
+                ? (
+                  <NavDropdownItem
+                    key={id}
+                    text={text} 
+                    href={href}
+                    dropdownIds={dropdownIds}
+                    dropdownContent={dropdownContents[id]} />
+                )
+                : <NavItem  text={text} href={href!} />
+              )}
+            )}
         </ul>
-      </nav>
+      </StyledNav>
     </>
   )
+}
+
+Nav.defaultProps = {
+  className: '',
 }
