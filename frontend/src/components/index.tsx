@@ -3,7 +3,7 @@ export { default as IconLink } from './IconLink/IconLink';
 export { default as Logo } from './Logo/Logo'; 
 export { default as Nav } from './Nav/Nav';
 export { default as NavItem } from './Nav/NavItem';
-export { default as NavDropdownItem } from './Nav/NavDropdownItem';
+export { default as NavItemDropdown } from './Nav/NavItemDropdown';
 export { default as TopBanner } from './TopBanner/TopBanner';
 export { default as SkipToContent } from './SkipToContent/SkipToContent';
 export { default as UserContents } from './UserContents/UserContents';
