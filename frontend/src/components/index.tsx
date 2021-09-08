@@ -8,3 +8,5 @@ export { default as TopBanner } from './TopBanner/TopBanner';
 export { default as SkipToContent } from './SkipToContent/SkipToContent';
 export { default as UserContents } from './UserContents/UserContents';
 export { default as Header } from './Header/Header';
+export { default as Card } from './Card/Card';
+export { default as A11yHidden } from './A11yHidden/A11yHidden';

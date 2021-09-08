@@ -10,7 +10,7 @@ interface A11yHiddenProps {
   children?: ReactNode
 }
 
-export function A11yHidden({
+export default function A11yHidden({
   as,
   className,
   focusable,

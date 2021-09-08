@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { A11yHidden } from './A11yHidden';
+import { A11yHidden } from 'components';
 
 export default {
   title: 'Components/A11yHidden',
