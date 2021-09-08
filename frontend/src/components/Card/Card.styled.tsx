@@ -25,7 +25,6 @@ export const StyledCard = styled.li`
   > a {
     width: 100%;
     display: inline-block;
-    text-decoration: none;
     color: ${({ theme }) => theme.text.main};
     > strong,
     > p {

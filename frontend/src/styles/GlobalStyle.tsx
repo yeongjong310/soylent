@@ -38,4 +38,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     background: none
   }
+
+  a {
+    text-decoration: none;
+  }
 `

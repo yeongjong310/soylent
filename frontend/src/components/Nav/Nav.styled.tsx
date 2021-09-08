@@ -6,7 +6,7 @@ export const StyledNav = styled.nav`
   display: none;
   width: 100%;
   left: 0;
-
+  background: inherit;
   .nav-items {
     display:flex;
     flex-direction: column;
@@ -19,7 +19,6 @@ export const StyledNav = styled.nav`
         display: flex;
         justify-content: space-between;
         color: ${({ theme }) => theme.text.main};
-        text-decoration: none;
       }
     }
   }

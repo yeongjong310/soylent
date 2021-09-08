@@ -27,7 +27,6 @@ export const StyledNavItemDropdown = styled.li<StyledNavItemDropdownProp>`
     padding-top: 20px;
     font-size: 0.8125rem;
     & .dropdown__item--item {
-      text-decoration: none;
       color: ${({theme}) => theme.text.main};
       font-weight: 700;
       margin-bottom: 1em;

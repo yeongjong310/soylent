@@ -10,4 +10,5 @@ export const StyledHeader = styled.header`
   padding: 0 1.25rem;
   align-items: center;
   height: 3.75rem;
+  background: ${({theme}) => theme.colors.white };
 `
