@@ -21,10 +21,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   // normalize
-  ul {
+  ul, 
+  li {
     list-style-type: none;
     padding-inline-start: 0; 
   }
+
+  figure {
+    margin: 0;
+  }
+
   button {
     border: 0;
     cursor: pointer;
