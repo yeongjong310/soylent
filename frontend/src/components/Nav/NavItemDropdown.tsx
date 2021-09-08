@@ -1,11 +1,8 @@
+import { Card } from 'components';
 import React, { ReactElement, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { StyledNavDropdownItem } from './NavDropdownItem.styled'
-
-interface dropdownContentProp {
-  text: string;
-  href: string;
-}
+import { StyledNavItemDropdown } from './NavItemDropdown.styled'
+import { dropdownItemType } from './navEntities';
 
 interface dropdownNavItemType {
   text: string,
@@ -15,11 +12,11 @@ interface dropdownNavItemType {
     textIds: string[]
   },
   dropdownContent?: {
-    [key: string]: dropdownContentProp
+    [key: string]: dropdownItemType
   }
 }
 
-export default function DropdownItem({
+export default function NavItemDropdown({
   text,
   dropdownIds,
   dropdownContent
@@ -37,7 +34,7 @@ export default function DropdownItem({
   }
 
   return (
-    <StyledNavDropdownItem>
+    <StyledNavItemDropdown isOpen={isOpen}>
       <a 
         tabIndex={0}
         className='dropdown__title' 
@@ -52,23 +49,23 @@ export default function DropdownItem({
       </a>
       {isOpen && 
         <div className='dropdown__item-wrapper'>
-          <div className='dropdown__item--images'>
+          <ul className='dropdown__item--images'>
             { 
               dropdownIds?.imageIds.map(dropdownId => {
                 if (dropdownContent) {
                   return (
-                    <Link
-                      to={dropdownContent?.[dropdownId].href}
-                      className='dropdown__item--text'>
-                      {dropdownContent?.[dropdownId].text}
-                      <span className="navitem-icon"></span>
-                    </Link>
+                    <Card
+                      href={dropdownContent?.[dropdownId].href}
+                      src={dropdownContent?.[dropdownId]?.src}
+                      title={dropdownContent?.[dropdownId].text}
+                      description={dropdownContent?.[dropdownId]?.description}
+                    />
                   )
                 }
               })
             }
-          </div>
-          <div className='dropdown__item--texts'>
+          </ul>
+          <ul className='dropdown__item--texts'>
             {
               dropdownIds?.textIds.map(dropdownId => {
                 if (dropdownContent) {
@@ -82,9 +79,9 @@ export default function DropdownItem({
                 }
               })
             }
-          </div>
+          </ul>
         </div>
       }
-    </StyledNavDropdownItem>
+    </StyledNavItemDropdown>
   )
 }

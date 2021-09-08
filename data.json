@@ -39,7 +39,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -47,7 +47,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/ae2e4c3b8c86--Chocolate-T-8e9379.jpg?v=1622664600",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e5b75be27251--image-42.png?v=1622585182"
+                    }
+                ]
             },
             {
                 "id": 4489418014831,
@@ -93,7 +99,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/fe623934f6bb--RTD-Mocha-c7fe81.jpg?v=1623935281",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/63ee3a95c809--Mocha.png?v=1623935297"
+                    }
+                ]
             },
             {
                 "id": 4462621163631,
@@ -130,7 +142,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -138,7 +150,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/666c0a82fe5f--Mint-Chocolate-D-9e5f21.jpg?v=1622664680",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/3e7c3eef3170--Chocolate.png?v=1622664699"
+                    }
+                ]
             },
             {
                 "id": 4462627749999,
@@ -175,7 +193,7 @@
                 ],
                 "price": 3900,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -183,7 +201,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/1dd084a28052--RTD-Original-0ae7e8.jpg?v=1629734413",
+                        "figure":null
+                    }
+                ]
             },
             {
                 "id": 753752408170,
@@ -228,7 +252,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/6ed9b0d89e2a--RTD-Chai-2-5afc7d.jpg?v=1623883893",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/d03deb3990d0--Chai.png?v=1623883913"
+                    }
+                ]
             },
             {
                 "id": 4462641447023,
@@ -265,7 +295,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -273,7 +303,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/0a21218065e3--RTD-Vanilla-4208c9.jpg?v=1623939796",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/4fb8e0129707--Vanilla.png?v=1623939819"
+                    }
+                ]
             },
             {
                 "id": 4462794604655,
@@ -310,7 +346,7 @@
                 ],
                 "price": 4500,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -318,7 +354,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/0a21218065e3--RTD-Vanilla-4208c9.jpg?v=1623939796",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/4fb8e0129707--Vanilla.png?v=1623939819"
+                    }
+                ]
             },
             {
                 "id": 4579693330543,
@@ -341,7 +383,7 @@
                 ],
                 "price": 2500,
                 "bulkQuantity": "6",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -349,7 +391,13 @@
                     "purchaseType": "onetime",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/ae2e4c3b8c86--Chocolate-T-8e9379.jpg?v=1622664600",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e5b75be27251--image-42.png?v=1622585182"
+                    }
+                ]
             },
             {
                 "id": 4605292609647,
@@ -394,7 +442,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/11818777b2c1--RTD-Protein-Energy-7805c8.jpg?v=1623937960",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/705d0a2592f9--Chocolate.png?v=1623937806"
+                    }
+                ]
             },
             {
                 "id": 4605292675183,
@@ -439,7 +493,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/11818777b2c1--RTD-Protein-Energy-7805c8.jpg?v=1623937960",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/705d0a2592f9--Chocolate.png?v=1623937806"
+                    }
+                ]
             },
             {
                 "id": 4572886302831,
@@ -476,7 +536,7 @@
                 ],
                 "price": 4500,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -484,7 +544,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/11818777b2c1--RTD-Protein-Energy-7805c8.jpg?v=1623937960",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/705d0a2592f9--Chocolate.png?v=1623937806"
+                    }
+                ]
             },
             {
                 "id": 4462631157871,
@@ -521,7 +587,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -529,7 +595,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/a34bb3c3c6b1--RTD-Strawberry-T-2554aa.jpg?v=1623865809",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/f3e1a46927a0--Strawberry.png?v=1623865862"
+                    }
+                ]
             },
             {
                 "id": 4462559559791,
@@ -566,7 +638,7 @@
                 ],
                 "price": 4200,
                 "bulkQuantity": "12",
-                "unitName": "bottle",
+                "unitName": "Bottle",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -574,7 +646,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/809f08bec73e--RTD-Banana-2-15ffa3.jpg?v=1623866303",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/b728c1bc1ce2--Banana.png?v=1623866324"
+                    }
+                ]
             }
         ],
         "banner": {
@@ -602,37 +680,81 @@
                 {
                     "title":"Sustained Energy & Satiety",
                     "subtitle":"The perfect balance of Micros and Macros",
-                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--SustainedEnergy-Final-cc03c0.png?v=1623941889"
                 },
                 {
                     "title":"Strength & Muscle Health",
                     "subtitle":"Complete Plant-Based Protein",
-                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Protein-Final-526287.png?v=1623941903"
                 },
                 {
                     "title":"Heart Health",
                     "subtitle":"Healthy fats containing Omega-3 + Omega-6",
-                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--HeartHealth-Final-1-28dcec.png?v=1623941917"
                 },
                 {
                     "title":"Immune System Support",
                     "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
-                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--ImmuneSystem-Final-f713f5.png?v=1623941930"
                 },
                 {
                     "title":"Hydration",
                     "subtitle":"Potassium + Magnesium",
-                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium.",
+                    "background":"https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Hydration-Final-c3d5dd.png?v=1623941943"
                 },
                 {
                     "title":"Metabolism",
                     "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
-                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Metabolism-Final-4e3738.png?v=1623941957"
                 }
             ],
             "image": "https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/624b665bc020--video-2.jpg?v=1620058930",
             "video": "https://player.vimeo.com/video/432326205"
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/NoSugar_Small_636ffdd2-ea32-4469-9529-1aacf89413fe_100x.jpg?v=1623952405",
+                "text": "1g Sugar"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text": "400 Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/DNA_4_100x.png?v=1622661738",
+                "text": "Gluten-Free"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Kosher01_Small_744b9155-fc79-4a21-8fd0-25fe18de13a0_100x.png?v=1623955987",
+                "text": "Kosher"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "all-powder":{
         "id": 261523472495,
@@ -683,7 +805,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/0ca18385c8f3--Powder-Original-679a38.jpg?v=1623941143",
+                        "figure":null
+                    }
+                ]
             },
             {
                 "id": 1764282499183,
@@ -721,7 +849,7 @@
                 ],
                 "price": 6400,
                 "bulkQuantity": "35",
-                "unitName": "meal",
+                "unitName": "MSeal",
                 "sizeOptions": null,
                 "state": {
                     "quantity": 1,
@@ -729,7 +857,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/a0fe78f543fe--Powder-Cacao-397876.jpg?v=1623940778",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/089fc5f8c89f--Chocolate.png?v=1622663570"
+                    }
+                ]
             }
         ],
         "banner": {
@@ -756,37 +890,69 @@
                 {
                     "title":"Sustained Energy & Satiety",
                     "subtitle":"The perfect balance of Micros and Macros",
-                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--SustainedEnergy-Final-cc03c0.png?v=1623941889"
                 },
                 {
                     "title":"Strength & Muscle Health",
                     "subtitle":"Complete Plant-Based Protein",
-                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Protein-Final-526287.png?v=1623941903"
                 },
                 {
                     "title":"Heart Health",
                     "subtitle":"Healthy fats containing Omega-3 + Omega-6",
-                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--HeartHealth-Final-1-28dcec.png?v=1623941917"
                 },
                 {
                     "title":"Immune System Support",
                     "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
-                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--ImmuneSystem-Final-f713f5.png?v=1623941930"
                 },
                 {
                     "title":"Hydration",
                     "subtitle":"Potassium + Magnesium",
-                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium.",
+                    "background":"https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Hydration-Final-c3d5dd.png?v=1623941943"
                 },
                 {
                     "title":"Metabolism",
                     "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
-                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Metabolism-Final-4e3738.png?v=1623941957"
                 }
             ],
             "image": null,
             "video": null
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img":"//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text":"Customizable Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "squared":{
         "id": 261523538031,
@@ -836,7 +1002,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/9f00c9622c1f--Squared-Brownie-e649aa.jpg?v=1623941410",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/651f7fe84aa9--Brownie.png?v=1623941445"
+                    }
+                ]
             },
             {
                 "id": 6557974462575,
@@ -881,7 +1053,13 @@
                     "purchaseType": "subscription",
                     "isHover": false,
                     "size": null
-                }
+                },
+                "bannerImgs":[
+                    {
+                        "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e007f54d955d--Squared-PB-Choco-1cb079.jpg?v=1623941822",
+                        "figure":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/51de39cb059f--Squared-PB.png?v=1623941843"
+                    }
+                ]
             }
         ],
         "banner": {
@@ -908,37 +1086,77 @@
                 {
                     "title":"Sustained Energy & Satiety",
                     "subtitle":"The perfect balance of Micros and Macros",
-                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full."
+                    "description":"The perfect balance of Micros and Macros, including healthy fats, slow burning carbs and essential nutrients provide balanced nutrition while keeping you full.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--SustainedEnergy-Final-cc03c0.png?v=1623941889"
                 },
                 {
                     "title":"Strength & Muscle Health",
                     "subtitle":"Complete Plant-Based Protein",
-                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy."
+                    "description":"Complete plant-based protein containing all 9 essential amino acids supports lean muscle mass, strength and energy.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Protein-Final-526287.png?v=1623941903"
                 },
                 {
                     "title":"Heart Health",
                     "subtitle":"Healthy fats containing Omega-3 + Omega-6",
-                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support."
+                    "description":"Research shows that heart healthy fats like Canola oil, containing Omega-3 and Omega-6 provide cardiovascular support.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--HeartHealth-Final-1-28dcec.png?v=1623941917"
                 },
                 {
                     "title":"Immune System Support",
                     "subtitle":"Plant-Based Protein + Vitamins A, C, E + Zinc",
-                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing."
+                    "description":"Boosting your immune system with a healthy dose of vitamins A, C, E, and D combined with balanced macros can support your overall health and wellbeing.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--ImmuneSystem-Final-f713f5.png?v=1623941930"
                 },
                 {
                     "title":"Hydration",
                     "subtitle":"Potassium + Magnesium",
-                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium."
+                    "description":"Soylent's formula has a dose of critical electrolytes potassium and magnesium.",
+                    "background":"https://cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Hydration-Final-c3d5dd.png?v=1623941943"
                 },
                 {
                     "title":"Metabolism",
                     "subtitle":"Vitamin B + Choline + Slow Burning Carbs",
-                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism."
+                    "description":"Slow-burning carbs combined with key vitamins are crucial to boosting your metabolism.",
+                    "background":"//cdn.shopify.com/s/files/1/0003/5933/3902/t/256/assets/e67d47589a78--Metabolism-Final-4e3738.png?v=1623941957"
                 }
             ],
             "image": null,
             "video": null
-        }
+        },
+        "nutrition": [
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-dna_100x.png?v=1623837459",
+                "text": "20g Plant-Based Protein"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589",
+                "text": "Plant-Based / Vegan"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/why-soylent-molecules_100x.png?v=1623837459",
+                "text": "28 Vitamins & Minerals"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/NoSugar_Small_636ffdd2-ea32-4469-9529-1aacf89413fe_100x.jpg?v=1623952405",
+                "text": "1g Sugar"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Microscope_1_100x.png?v=1622661578",
+                "text": "100 Calories"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Molecules_5_100x.png?v=1622661625",
+                "text": "Low Glycemic Index"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/DNA_4_100x.png?v=1622661738",
+                "text": "Gluten-Free"
+            },
+            {
+                "img": "//cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_2_100x.png?v=1622661466",
+                "text": "No Nuts / No Dairy"
+            }
+        ]
     },
     "all-products": [
         {

@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react';
 import { StyledNav } from './Nav.styled';
 import { navItems, dropdownContents } from './navEntities';
-import NavItem from './NavItem';
-import NavDropdownItem from './NavDropdownItem';
+import { NavItem, NavItemDropdown } from 'components';
 import { classNames } from 'utils/classNames';
+
 interface NavProps {
   className: string,
   style?: object
@@ -24,7 +24,7 @@ export default function Nav({ className, style, ...restProps }: NavProps): React
               return ( 
                 dropdownIds 
                 ? (
-                  <NavDropdownItem
+                  <NavItemDropdown
                     key={id}
                     text={text} 
                     href={href}
