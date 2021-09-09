@@ -5,7 +5,6 @@ interface styledHeaderType {
 export const StyledHeader = styled.header<styledHeaderType>`
   /* position: relative; */
   ${({ isOverHeader }) => {
-    console.log(isOverHeader());
     return !isOverHeader() 
     ? 'position: relative;' : 
     `

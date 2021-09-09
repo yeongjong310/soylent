@@ -15,6 +15,11 @@ export default function Header ({ className, ...restProps }: HeaderProps) {
 
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
+    if (isOpen) {
+      document.body.style.overflow = "auto";
+    } else {
+      document.body.style.overflow = "hidden"
+    }
   }
 
   const isOverHeader = () => scrollY > 34;
