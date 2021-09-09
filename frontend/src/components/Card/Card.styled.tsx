@@ -3,6 +3,7 @@ import styled from 'styled-components/macro';
 interface StyledCardProp{
   width?: number;
   ratio?: number;
+  ishover?: boolean;
 }
 
 export const StyledCard = styled.li<StyledCardProp>`
@@ -19,7 +20,11 @@ export const StyledCard = styled.li<StyledCardProp>`
       top: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: ${( { ratio, ishover }) => 
+        ratio 
+        ? 'cover'
+        : ishover ? 'cover' : 'contain'};
+      background-color: ${( { theme, ratio }) => ratio ? '' : theme.colors.gray.second};
     }
   }
   .img-container::before {

@@ -1,10 +1,11 @@
-import React, { ReactElement, ReactNode } from 'react'
+import React, { ReactElement, ReactNode, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { StyledCard } from './Card.styled';
 
-interface Props {
+export interface CardProps {
   href: string;
   src?: string;
+  hoverSrc?: string;
   title: string;
   description?: string | ReactNode;
   children?: ReactNode;
@@ -12,15 +13,27 @@ interface Props {
   ratio?: number;
 }
 
-export default function Card({width, ratio, href, src, title, description, children}: Props): ReactElement {
+export default function Card({width, ratio, href, src, hoverSrc, title, description, children}: CardProps): ReactElement {
+  const [viewImg, setViewImg] = useState(src);
+  
   return (
     <StyledCard
       width={width}
       ratio={ratio}
+      ishover={viewImg===hoverSrc}
     >
       <Link to={href} title={`${title} 이동`}>
         <div className="img-container">
-          <img src={src} alt={title} />
+          {hoverSrc 
+            ? <img 
+              src={viewImg} 
+              onMouseOver={() => {setViewImg(hoverSrc)}} 
+              onMouseOut={() => {setViewImg(src)}}
+              alt={title} />
+            : <img 
+              src={viewImg} 
+              alt={title} />
+          }
         </div>
       </Link>
       <Link aria-hidden='true' tabIndex={-1} to={href} title={`${title} 이동`}>
