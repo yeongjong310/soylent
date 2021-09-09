@@ -1,9 +1,15 @@
 import styled from 'styled-components/macro';
 
-export const StyledCard = styled.li`
+interface StyledCardProp{
+  width?: number;
+  ratio?: number;
+}
+
+export const StyledCard = styled.li<StyledCardProp>`
   position: relative;
-  width: 50%;
+  width: ${( {width }) => width ? width : 100}%;
   padding: 0 0 20px 0;
+  font-size: 0.8125rem;
   .img-container {
     display: inline-block;
     position: relative;
@@ -19,20 +25,20 @@ export const StyledCard = styled.li`
   .img-container::before {
     display: block;
     content:'';
-    margin-top: 100%;
+    margin-top: ${( { ratio }) => ratio ? ratio : 74.5}%;
     width: 100%;
   }
   > a {
     width: 100%;
     display: inline-block;
     color: ${({ theme }) => theme.text.main};
-    > strong,
-    > p {
-      margin-top: 6px;
-      margin-bottom: 0;
-    }
-    > strong {
-      display: block;
-    }
+  }
+  .title,
+  .description {
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .title {
+    display: block;
   }
 `
