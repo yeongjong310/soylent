@@ -55,6 +55,9 @@ export default function NavItemDropdown({
                 if (dropdownContent) {
                   return (
                     <Card
+                      width={50}
+                      ratio={100}
+                      key={dropdownContent?.[dropdownId].text}
                       href={dropdownContent?.[dropdownId].href}
                       src={dropdownContent?.[dropdownId]?.src}
                       title={dropdownContent?.[dropdownId].text}
@@ -71,6 +74,7 @@ export default function NavItemDropdown({
                 if (dropdownContent) {
                   return (
                     <Link
+                      key={dropdownContent?.[dropdownId].text}
                       to={dropdownContent?.[dropdownId].href}
                       className='dropdown__item--item'>
                       {dropdownContent?.[dropdownId].text}

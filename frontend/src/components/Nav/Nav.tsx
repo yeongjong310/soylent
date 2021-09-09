@@ -31,7 +31,7 @@ export default function Nav({ className, style, ...restProps }: NavProps): React
                     dropdownIds={dropdownIds}
                     dropdownContent={dropdownContents[id]} />
                 )
-                : <NavItem  text={text} href={href!} />
+                : <NavItem key={id} text={text} href={href!} />
               )}
             )}
         </ul>

@@ -7,6 +7,8 @@ export const StyledNav = styled.nav`
   width: 100%;
   left: 0;
   background: inherit;
+  height: 100vh;
+  overflow-y: auto;
   .nav-items {
     display:flex;
     flex-direction: column;
