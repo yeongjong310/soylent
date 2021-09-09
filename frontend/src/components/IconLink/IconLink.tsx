@@ -20,7 +20,7 @@ const toggleCart: React.MouseEventHandler<HTMLButtonElement> = (e) => {
 
 export default function IconLink({as, className, to, children, ...restProps}: IconButtonProps): ReactElement {
   return (
-    typeof as === typeof Link 
+    typeof as === typeof undefined 
       ? (
         <StyledIconLink
           to={to}
