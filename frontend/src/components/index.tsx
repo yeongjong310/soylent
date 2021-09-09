@@ -11,3 +11,5 @@ export { default as Header } from './Header/Header';
 export { default as Card } from './Card/Card';
 export { default as A11yHidden } from './A11yHidden/A11yHidden';
 export { default as Banner } from './Banner/Banner';
+export { default as ProductCard } from './ProductCard/ProductCard';
+export { default as Star } from './Star/Star';
