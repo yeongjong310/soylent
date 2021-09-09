@@ -18,7 +18,6 @@ export default function ProductCard({href, src, title, description, hoverSrc}: C
   const [checkedRadioId, setCheckedRadioId] = useState<radioIdType>(SUBSCRIBE);
   const updateCheckedRadio:React.ChangeEventHandler<HTMLInputElement> = 
     (e) => setCheckedRadioId(e.target.id as radioIdType);
-  console.log(src.replace('{width}', '500'));
   return (
     <Card
       href={href} 
