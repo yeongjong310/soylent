@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const StyledBanner = styled.section`
+  padding-bottom: 2.5rem;
   picture {
     display: block;
     height: 255px;

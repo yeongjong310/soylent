@@ -7,22 +7,22 @@ interface Props {
   text?: string;
   width?: number;
   type?: 'primary' | 'secondary';
-  arrowAnimation?: boolean;
-  shrinkAnimation?: boolean;
-  colorAnimation?: boolean;
-  upper?: boolean;
+  arrowanimation?: string;
+  shrinkanimation?: string;
+  coloranimation?: string;
+  upper?: string;
   wide?: boolean;
 }
 
 interface StyledButtonProps {
   $width?: Props['width'];
   $type?: Props['type'];
-  arrowAnimation?: boolean;
-  shrinkAnimation?: boolean;
-  colorAnimation?: boolean;
-  upper?: boolean;
+  arrowanimation?: string;
+  shrinkanimation?: string;
+  coloranimation?: string;
+  upper?: string;
   wide?: boolean;
-  ishover: boolean;
+  ishover: string;
 }
 
 type StyledArrowIconProps = Pick<StyledButtonProps, 'ishover'>;
@@ -32,7 +32,7 @@ const StyledButton = styled(Link)<StyledButtonProps>`
   display: block;
   color: black;
   border-radius: 0;
-  text-align: ${({ arrowAnimation }) => (arrowAnimation ? 'left' : 'center')};
+  text-align: ${({ arrowanimation }) => (arrowanimation ? 'left' : 'center')};
   width: ${({ $width = '200px' }) => $width};
   height: 55px;
   font-size: 1rem;
@@ -44,9 +44,9 @@ const StyledButton = styled(Link)<StyledButtonProps>`
   letter-spacing: calc(1rem * 0.15);
   ${({ upper }) => (upper ? 'text-transform: uppercase;' : '')}
   ${({ wide }) => (wide ? 'text-transform: uppercase;' : '')}
-  ${({ colorAnimation, ishover, theme }) => `
-    ${colorAnimation ? 'transition: color 0.3s;' : ''}
-    ${colorAnimation && ishover ? `color: ${theme.color.green};` : ''}
+  ${({ coloranimation, ishover, theme }) => `
+    ${coloranimation ? 'transition: color 0.3s;' : ''}
+    ${coloranimation && ishover === 'true' ? `color: ${theme.color.green};` : ''}
   `}
   &::after {
     content: '';
@@ -56,8 +56,8 @@ const StyledButton = styled(Link)<StyledButtonProps>`
     top: 0;
     right: 0;
     bottom: 0;
-    ${({ ishover, shrinkAnimation }) => {
-      if (ishover && shrinkAnimation)
+    ${({ ishover, shrinkanimation }) => {
+      if (ishover && shrinkanimation)
         return `
     left: 5px;
     top: 5px;
@@ -79,7 +79,7 @@ const ArrowIcon = styled.span<StyledArrowIconProps>`
     content: '';
     position: absolute;
     left: -30px;
-    right: ${({ ishover }) => (ishover ? '-40' : '0')}px;
+    right: ${({ ishover }) => (ishover === 'true' ? '-40' : '0')}px;
     display: block;
     border-bottom: 2px solid ${({theme}) => theme.text.main};
     transform: translateY(-50%);
@@ -96,7 +96,7 @@ const ArrowIcon = styled.span<StyledArrowIconProps>`
     border: 2px solid ${({theme}) => theme.text.main};
     border-left: none;
     border-bottom: none;
-    transform: ${({ ishover }) => (ishover ? 'translateX(40px)' : '')} translateY(-50%)
+    transform: ${({ ishover }) => (ishover === 'true' ? 'translateX(40px)' : '')} translateY(-50%)
       rotate(45deg);
     transition: all 0.3s;
   }
@@ -121,10 +121,10 @@ export default function Button({ text, children, width, type, ...restProps }: Pr
       onMouseLeave={leaveHandler}
       onFocus={enterHandler}
       onBlur={leaveHandler}
-      ishover={hover}
+      ishover={hover.toString()}
       {...restProps}
     >
-      {restProps.arrowAnimation ? <ArrowIcon ishover={hover} /> : null}
+      {restProps.arrowanimation ? <ArrowIcon ishover={hover.toString()} /> : null}
       <TextBox>{children ?? text}</TextBox>
     </StyledButton>
   );
