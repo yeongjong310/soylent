@@ -17,3 +17,4 @@ export { default as Stepper } from './Stepper/Stepper';
 export { default as Slick } from './Slick/Slick';
 export { default as RadioInput } from './RadioInput/RadioInput';
 export { default as ScoreByStars } from './ScoreByStars/ScoreByStars';
+export { default as Selector } from './Selector/Selector';
