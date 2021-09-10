@@ -1,8 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { useScroll } from 'hooks/useScroll';
 import { BurgerButton, Logo, Nav, UserContents } from 'components';
+
+import 'styled-components/macro';
 import { StyledHeader } from './Header.styled';
-import Styled from 'styled-components/macro';
+import { LogoH1Container } from './Header.styled';
 
 interface HeaderProps {
   className?: string,
@@ -11,7 +13,6 @@ interface HeaderProps {
 export default function Header ({ className, ...restProps }: HeaderProps) {
   const { scrollY } = useScroll();
   const [isOpen, setIsOpen] = useState(false);
-  // const $header = useRef();
 
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
@@ -31,20 +32,11 @@ export default function Header ({ className, ...restProps }: HeaderProps) {
       isOverHeader={isOverHeader}
     > 
       <div className="header-wrapper">
-        {isOpen ? <Nav /> : ''}
+        <Nav isOpen={isOpen}/>
         <BurgerButton isOpen={isOpen} onClick={toggleIsOpen}/>
-        <h1
-          css={`
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate3d(-50%, -50%, 0);
-            max-width: 4.75rem;
-            margin: 0;
-          `}
-        >
+        <LogoH1Container>
           <Logo color='black' />
-        </h1>
+        </LogoH1Container>
         <UserContents />
       </div>
     </StyledHeader>
