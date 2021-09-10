@@ -13,3 +13,7 @@ export { default as A11yHidden } from './A11yHidden/A11yHidden';
 export { default as Banner } from './Banner/Banner';
 export { default as ProductCard } from './ProductCard/ProductCard';
 export { default as Star } from './Star/Star';
+export { default as Stepper } from './Stepper/Stepper';
+export { default as Slick } from './Slick/Slick';
+export { default as RadioInput } from './RadioInput/RadioInput';
+export { default as ScoreByStars } from './ScoreByStars/ScoreByStars';
