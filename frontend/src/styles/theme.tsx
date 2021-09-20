@@ -1,4 +1,4 @@
-const breakPoint = {
+export const breakPoint = {
   tablet1: '768px',
   tablet2: '992px',
   desktop: '1200px'
@@ -16,7 +16,7 @@ export const theme = {
   },
   text: {
     main: '#212322',
-    seconday: '#221F20',
+    second: '#221F20',
     third: '#505050'
   },
   colors: {
@@ -25,6 +25,7 @@ export const theme = {
       second: '#efefef'
     },
     white: '#fff',
+    black: '#000',
   },
   device,
 };
