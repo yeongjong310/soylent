@@ -11,9 +11,10 @@ export interface CardProps {
   children?: ReactNode;
   width?: number;
   ratio?: number;
+  className?: string;
 }
 
-export default function Card({width, ratio, href, src, hoverSrc, title, description, children}: CardProps): ReactElement {
+export default function Card({width, ratio, href, src, hoverSrc, title, description, className, children}: CardProps): ReactElement {
   const [viewImg, setViewImg] = useState(src);
   
   return (
@@ -21,6 +22,7 @@ export default function Card({width, ratio, href, src, hoverSrc, title, descript
       width={width}
       ratio={ratio}
       ishover={viewImg===hoverSrc}
+      className={className}
     >
       <Link to={href} title={`${title} 이동`}>
         <div className="img-container">
