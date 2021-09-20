@@ -5,7 +5,6 @@ export { default as Nav } from './Nav/Nav';
 export { default as NavItem } from './Nav/NavItem';
 export { default as NavItemDropdown } from './Nav/NavItemDropdown';
 export { default as TopBanner } from './TopBanner/TopBanner';
-export { default as SkipToContent } from './SkipToContent/SkipToContent';
 export { default as UserContents } from './UserContents/UserContents';
 export { default as Header } from './Header/Header';
 export { default as Card } from './Card/Card';
