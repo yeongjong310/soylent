@@ -2,11 +2,7 @@ import Button from 'components/Button/Button';
 import React, { ReactElement } from 'react'
 import { BannerContent, StyledBanner } from './Banner.styled';
 
-interface Props {
-  
-}
-
-export default function Banner({}: Props): ReactElement {
+export default function Banner(): ReactElement {
   return (
     <StyledBanner>
       <picture className="home-hero__image object-cover">
@@ -32,8 +28,7 @@ export default function Banner({}: Props): ReactElement {
         <h2>Complete Nutrition. Science-Backed and Sustainable.</h2>
         <p>When there is no time, grab a Soylent and have a nutritious meal that is as easy as it is delicious!</p>
 
-          <Button text={'Shop now'} arrowAnimation shrinkAnimation upper></Button>
-
+          <Button text={'Shop now'} arrowanimation shrinkanimation upper />
       </BannerContent>
     </StyledBanner>
   )

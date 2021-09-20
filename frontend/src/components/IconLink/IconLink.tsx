@@ -1,5 +1,4 @@
 import React, { ReactElement, ReactNode, ElementType } from 'react'
-import { Link } from 'react-router-dom';
 import { StyledIconLink } from './IconLink.styled';
 
 type asProps = {

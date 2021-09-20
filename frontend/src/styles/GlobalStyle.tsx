@@ -41,5 +41,10 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+    cursor: pointer;
+  }
+
+  input { 
+    cursor: pointer;
   }
 `

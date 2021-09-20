@@ -1,23 +1,49 @@
 import React, { ReactElement, useState } from 'react'
-import Styled from 'styled-components/macro';
-import { StyledProductCardForm } from './ProductCard.styled';
-import { Card, Star } from 'components';
+import { Card, RadioInput, ScoreByStars, Stepper, Selector } from 'components';
+
+// assets
+import { ReactComponent as ArrowSvg } from 'assets/Icon/direction.svg'
+
+// types
 import { CardProps } from '../Card/Card';
 
-interface ProductCard {
+// styles
+import 'styled-components/macro';
+import { ShippingFriquencies, StyledProductCardForm, SubscribeComment, SubTitle } from './ProductCard.styled';
+import { deliverOptions } from './deliverOptions';
+
+interface ProductCardProp {
+  id: number | string;
   src: string;
   hoverSrc: string;
+  price: number | string;
+  bottles: number | string;
+  discount_percentage: string;
 }
 
 const SUBSCRIBE = "subscribe";
-const PURCHASE = "purchase";
+const PURCHASE = "oneTime";
 
-type radioIdType = "subscribe"|"purchase";
+type radioIdType = "subscribe"|"oneTime";
 
-export default function ProductCard({href, src, title, description, hoverSrc}: CardProps & ProductCard): ReactElement {
+export default function ProductCard({
+  id,
+  href, 
+  src, 
+  title, 
+  description, 
+  hoverSrc, 
+  price, 
+  bottles, 
+  discount_percentage }: CardProps & ProductCardProp): ReactElement {
+
   const [checkedRadioId, setCheckedRadioId] = useState<radioIdType>(SUBSCRIBE);
+
   const updateCheckedRadio:React.ChangeEventHandler<HTMLInputElement> = 
     (e) => setCheckedRadioId(e.target.id as radioIdType);
+  
+  const dollarPrice = +price/100;
+
   return (
     <Card
       href={href} 
@@ -25,115 +51,49 @@ export default function ProductCard({href, src, title, description, hoverSrc}: C
       hoverSrc={hoverSrc.replace('{width}', '500')}
       title={title} 
       description={
-      <div
-        css={`
-          display:flex;
-          justify-content: space-between;
-        `}
-      >
+      <SubTitle>
         <span>{description}</span>
-        <div
-          css={
-            'margin-bottom: 0.8125rem'
-          }
-        >
-          <Star percent={100}/>
-          <Star percent={100}/>
-          <Star percent={100}/>
-          <Star percent={100}/>
-          <Star percent={50}/>
-          <span css={
-            `padding-left: 0.3125rem`
-          }>302 Reviews</span>
-        </div>
-      </div>}
+        <ScoreByStars score={4.4}/>
+      </SubTitle>}
       >
         <StyledProductCardForm>
           <RadioInput
-            id={SUBSCRIBE}
+            id={SUBSCRIBE + id}
             value={SUBSCRIBE}
-            checked={checkedRadioId===SUBSCRIBE}
-            price={"37.05"}
-            bottle={12}
+            checked={checkedRadioId===SUBSCRIBE + id} 
+            price={dollarPrice*(100 - Number(discount_percentage))/100}
+            bottles={bottles}
             onChange={updateCheckedRadio}
             text="Subscribe & Save"
           />
           <RadioInput
-            id={PURCHASE}
+            id={PURCHASE + id}
             value={PURCHASE}
-            checked={checkedRadioId===PURCHASE}
-            price={"123"}
-            bottle={12}
+            checked={checkedRadioId===PURCHASE + id}
+            price={dollarPrice}
+            bottles={bottles}
             onChange={updateCheckedRadio}
             text="One-Time Purchase"
           />
-          <div>
-            <div>
-              <label 
-                css={
-                  ` 
-                    display: block;
-                    margin-top: 0.625rem;
-                    margin-bottom: 0.3125rem;
-                    font-size: 0.6875rem;
-                  `
-                }
-                htmlFor="purchase-option">
-                Deliver Every:
-              </label>
-              <div>
-                <select id="purchase-option" className="purchase-option">
-                  <option value="15">15 Days</option>
-                  <option value="30">30 Days</option>
-                  <option value="45">45 Days</option>
-                  <option value="60">60 Days</option>
-                </select>
-              </div>
+          <div className='shipping-wrapper'>
+            <label
+              htmlFor="purchase-option">
+              Deliver Every:
+            </label>
+            <div className="selector-wrapper"> 
+              <Selector
+                id="purchase-option"
+                options={deliverOptions}
+              />
+              <ArrowSvg />
             </div>
-            {/* stepper here */}
+            <ShippingFriquencies>
+              <Stepper />
+              <button className="add-to-card" type="button">Add to Cart</button>
+            </ShippingFriquencies>
           </div>
         </StyledProductCardForm>
+        <SubscribeComment>Subscribe & Save 11.78%</SubscribeComment>
     </Card>
-  )
-}
-
-function RadioInput({ id, value, price, text, bottle, onChange, checked }: { 
-  id: string;
-  value: string;
-  price: string | number;
-  bottle: number;
-  text: string;
-  onChange: React.ChangeEventHandler<HTMLInputElement>;
-  checked: boolean;
-}) {
-  return (
-    <div
-      css={
-        `
-          display: flex;
-          justify-content: space-between; 
-          margin-bottom: 0.625rem;
-        `
-      }
-    >
-      <input 
-        id={id}
-        type="radio" 
-        value={value}
-        checked={checked}
-        onChange={onChange}
-      />
-      <label htmlFor={id}>{text}</label>
-      <span
-        css={
-          `
-            font-size: 0.6875rem;
-            flex-grow: 1;
-            text-align: right;
-          `
-        }
-      ><strong>${(+price).toFixed(2)} </strong>(${(+price/+bottle).toFixed(2)}/bottle)
-      </span>
-    </div>
   )
 }

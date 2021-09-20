@@ -7,9 +7,10 @@ import { classNames } from 'utils/classNames';
 interface NavProps {
   className: string,
   style?: object
+  isOpen: boolean,
 }
 
-export default function Nav({ className, style, ...restProps }: NavProps): ReactElement {
+export default function Nav({ className, style, isOpen, ...restProps }: NavProps): ReactElement {
 
   return (
     <>
@@ -17,6 +18,7 @@ export default function Nav({ className, style, ...restProps }: NavProps): React
       <StyledNav
         style = {style}
         className={classNames(className, 'active')}
+        isOpen={isOpen}
         {...restProps}
       >
         <ul role="menubar" className="nav-items">
