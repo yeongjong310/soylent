@@ -1,15 +1,18 @@
 import styled from 'styled-components/macro';
 
-export const StyledNav = styled.nav`
+export const StyledNav = styled.nav<{isOpen: boolean}>`
   position: absolute;
   transform: translateY(-100%);
-  display: none;
+  display: ${({isOpen}) => isOpen ? 'block' : 'none'};
+  top: ${({isOpen}) => isOpen ? '100%' : 'none'};
+  transform: ${({isOpen}) => isOpen ? 'translateY(0)' : 'none'};
   width: 100%;
   left: 0;
   background: inherit;
-  height: 100vh;
+  height: calc(100vh - 94px);
   overflow-y: auto;
   .nav-items {
+    user-select: none;
     display:flex;
     flex-direction: column;
     margin: 0;
@@ -24,10 +27,14 @@ export const StyledNav = styled.nav`
       }
     }
   }
-
-  &.active {
+  @media ${({theme}) => theme.device.tablet2} {
+    width: auto;
     display: block;
-    top: 100%;
-    transform: translateY(0);
+    position: static;
+    transform: none;
+    height: auto;
+    .nav-items {
+      flex-direction: row;
+    }
   }
 `

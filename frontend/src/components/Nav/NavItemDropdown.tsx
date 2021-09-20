@@ -29,7 +29,6 @@ export default function NavItemDropdown({
 
   const toggleisOpenStateByKeyUp:React.KeyboardEventHandler<HTMLAnchorElement> = (e) => {
     if (e.code !== 'Space' && e.code !== 'Enter') return;
-    console.log(e.code);
     setIsOpen(!isOpen);
   }
 
@@ -48,43 +47,41 @@ export default function NavItemDropdown({
         <span className="dropdown__icon--plus"></span>
       </a>
       {isOpen && 
-        <div className='dropdown__item-wrapper'>
-          <ul className='dropdown__item--images'>
-            { 
-              dropdownIds?.imageIds.map(dropdownId => {
-                if (dropdownContent) {
-                  return (
-                    <Card
-                      width={50}
-                      ratio={100}
-                      key={dropdownContent?.[dropdownId].text}
-                      href={dropdownContent?.[dropdownId].href}
-                      src={dropdownContent?.[dropdownId]?.src}
-                      title={dropdownContent?.[dropdownId].text}
-                      description={dropdownContent?.[dropdownId]?.description}
-                    />
-                  )
-                }
-              })
-            }
-          </ul>
-          <ul className='dropdown__item--texts'>
+        <ul className='dropdown__item--list'>
+          { 
+            dropdownIds?.imageIds.map(dropdownId => {
+              if (dropdownContent) {
+                return (
+                  <Card
+                    width={50}
+                    ratio={100}
+                    key={dropdownContent?.[dropdownId].text}
+                    href={dropdownContent?.[dropdownId].href}
+                    src={dropdownContent?.[dropdownId]?.src}
+                    title={dropdownContent?.[dropdownId].text}
+                    description={dropdownContent?.[dropdownId]?.description}
+                    className='dropdown__item--image'
+                  />
+                )
+              }
+            })
+          }
+          <li className='dropdown__item--text'>
             {
               dropdownIds?.textIds.map(dropdownId => {
                 if (dropdownContent) {
                   return (
                     <Link
                       key={dropdownContent?.[dropdownId].text}
-                      to={dropdownContent?.[dropdownId].href}
-                      className='dropdown__item--item'>
+                      to={dropdownContent?.[dropdownId].href}>
                       {dropdownContent?.[dropdownId].text}
                     </Link>
                   )
                 }
               })
             }
-          </ul>
-        </div>
+          </li>
+        </ul>
       }
     </StyledNavItemDropdown>
   )
