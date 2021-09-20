@@ -1,11 +1,12 @@
+import React from 'react';
 import styled from 'styled-components/macro';
 interface styledHeaderType {
-  isOverHeader: () => boolean
+  isOverHeader: boolean
 }
 export const StyledHeader = styled.header<styledHeaderType>`
   /* position: relative; */
   ${({ isOverHeader }) => {
-    return !isOverHeader() 
+    return !isOverHeader
     ? 'position: relative;' : 
     `
       position: fixed;

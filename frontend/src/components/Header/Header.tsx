@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useScroll } from 'hooks/useScroll';
+import useIsOverHeader from 'hooks/useIsOverHeader';
 import { BurgerButton, Logo, Nav, UserContents } from 'components';
 
 import 'styled-components/macro';
@@ -10,20 +10,18 @@ interface HeaderProps {
   className?: string,
 }
 
-export default function Header ({ className, ...restProps }: HeaderProps) {
-  const { scrollY } = useScroll();
+function Header ({ className, ...restProps }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
-
+  const { isOverHeader } = useIsOverHeader();
+  
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
     if (isOpen) {
       document.body.style.overflow = "auto";
     } else {
-      document.body.style.overflow = "hidden"
+      document.body.style.overflow = "hidden";
     }
   }
-
-  const isOverHeader = () => scrollY > 34;
 
   return (
     <StyledHeader
@@ -42,3 +40,5 @@ export default function Header ({ className, ...restProps }: HeaderProps) {
     </StyledHeader>
   );
 }
+
+export default Header;

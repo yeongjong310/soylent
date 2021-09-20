@@ -1,13 +1,13 @@
-import styled from 'styled-components/macro';
+import styled from 'styled-components/macro'
 
-export interface BurgerButtonProps{
-  isOpen: boolean;
-  onClick?: () => void;
+export interface BurgerButtonProps {
+  isOpen: boolean
+  onClick?: () => void
 }
 
 export const StyledBurgerButton = styled.button<BurgerButtonProps>`
   position: relative;
-  curser: pointer;
+  cursor: pointer;
   width: 22px;
   height: 18px;
   > div {
@@ -17,21 +17,24 @@ export const StyledBurgerButton = styled.button<BurgerButtonProps>`
       position: absolute;
       left: 0;
       right: 0;
-      content:"";
+      content: '';
       height: 2px;
       background-color: #212322;
-      transition: all .3s ;
+      transition: all 0.3s;
     }
     & {
-      background-color: ${({isOpen}) => isOpen ? 'transparent' : '#212322'};
+      background-color: ${({ isOpen }) => (isOpen ? 'transparent' : '#212322')};
     }
     &::after {
-      top: ${({isOpen}) => isOpen ? '' : '8px'};
-      transform: ${({isOpen}) => isOpen ? 'rotate(45deg);' : ''};
+      top: ${({ isOpen }) => (isOpen ? '' : '8px')};
+      transform: ${({ isOpen }) => (isOpen ? 'rotate(45deg);' : '')};
     }
     &::before {
-      top: ${({isOpen}) => isOpen ? '' : '-8px'};
-      transform: ${({isOpen}) => isOpen ? 'rotate(-45deg);' : ''};
+      top: ${({ isOpen }) => (isOpen ? '' : '-8px')};
+      transform: ${({ isOpen }) => (isOpen ? 'rotate(-45deg);' : '')};
     }
   }
-`;
+  @media ${({ theme }) => theme.device.tablet2} {
+    display: none;
+  }
+`
