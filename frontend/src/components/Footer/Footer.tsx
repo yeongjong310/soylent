@@ -2,11 +2,7 @@ import React, { ReactElement } from 'react'
 import { Container } from './Footer.styled';
 import { Logo } from 'components';
 
-interface Props {
-
-}
-
-export default function Footer({ }: Props): ReactElement {
+export default function Footer(): ReactElement {
   return (
     <Container>
       <div className="footer-container"> 

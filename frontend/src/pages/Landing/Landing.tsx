@@ -1,11 +1,8 @@
-import React, { ReactElement, useState, useEffect } from 'react'
-import { Banner, Slick } from 'components';
+import { ReactElement } from 'react'
+import { Banner } from 'components';
 import { SlickSection } from 'sections';
-interface Props {
-  
-}
 
-export default function Landing({}: Props): ReactElement {
+export default function Landing(): ReactElement {
   return (
     <main>
       <Banner />

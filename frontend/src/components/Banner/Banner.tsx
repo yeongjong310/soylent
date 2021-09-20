@@ -2,11 +2,7 @@ import Button from 'components/Button/Button';
 import React, { ReactElement } from 'react'
 import { BannerContent, StyledBanner } from './Banner.styled';
 
-interface Props {
-  
-}
-
-export default function Banner({}: Props): ReactElement {
+export default function Banner(): ReactElement {
   return (
     <StyledBanner>
       <picture className="home-hero__image object-cover">

@@ -3,11 +3,8 @@ import React, { ReactElement, useEffect, useState } from 'react'
 import { Slick } from 'components';
 import { Container } from './SlickSection.styled';
 
-interface Props {
-  
-}
 
-export default function SlickSection({}: Props): ReactElement {
+export default function SlickSection(): ReactElement {
   const [randomData, setRandomData] = useState();
   const [currentTab, setCurrentTab] = useState('all-drinks');
   useEffect(() => {

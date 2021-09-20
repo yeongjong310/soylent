@@ -1,11 +1,7 @@
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import { StyledTopBanner } from './TopBanner.styled';
 
-interface Props {
-  
-}
-
-export default function TopBanner({}: Props): ReactElement {
+export default function TopBanner(): ReactElement {
   return (
     <StyledTopBanner>
       <p>Free shipping to the continental U.S. on orders $25 and over!</p>

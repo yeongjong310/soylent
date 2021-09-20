@@ -17,7 +17,7 @@ export default function Selector({id, options, cssStr}: Props): ReactElement {
       id={id} 
     >
       {
-        options.map(({ value, text}) => <option value={value}>{text}</option>)
+        options.map(({ value, text }, index) => <option key={index} value={value}>{text}</option>)
       }
     </StyledSelect>
   )

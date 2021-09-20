@@ -19,7 +19,7 @@ export default function ScoreByStars({score}: Props): ReactElement {
 
   return (
     <div>
-      { scores.map(score => <Star percent={score} />) }
+      { scores.map((score, index) => <Star key={index} percent={score} />) }
       <span className="review">302 Reviews</span>
     </div>
   )

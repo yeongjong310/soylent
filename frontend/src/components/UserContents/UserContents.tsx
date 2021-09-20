@@ -1,14 +1,10 @@
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import { ReactComponent as UserIcon } from 'assets/Icon/userIcon.svg';
 import { ReactComponent as CartIcon } from 'assets/Icon/cartIcon.svg';
 import { IconLink } from 'components'
 import { StyledUserContents } from './UserContents.styled';
 
-interface Props {
-  
-}
-
-export default function UserContents({}: Props): ReactElement {
+export default function UserContents(): ReactElement {
   return (
     <StyledUserContents>
       <IconLink to='#'>

@@ -12,7 +12,7 @@ import 'styled-components/macro';
 import { ShippingFriquencies, StyledProductCardForm, SubscribeComment, SubTitle } from './ProductCard.styled';
 import { deliverOptions } from './deliverOptions';
 
-interface ProductCard {
+interface ProductCardProp {
   id: number | string;
   src: string;
   hoverSrc: string;
@@ -35,7 +35,7 @@ export default function ProductCard({
   hoverSrc, 
   price, 
   bottles, 
-  discount_percentage }: CardProps & ProductCard): ReactElement {
+  discount_percentage }: CardProps & ProductCardProp): ReactElement {
 
   const [checkedRadioId, setCheckedRadioId] = useState<radioIdType>(SUBSCRIBE);
 
