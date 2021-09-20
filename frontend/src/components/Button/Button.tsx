@@ -13,7 +13,17 @@ export interface Props {
   wide?: boolean;
 }
 
-export default function Button({ text, children, width, type, ...restProps }: Props): ReactElement {
+export default function Button({
+  text,
+  children,
+  width,
+  type,
+  arrowanimation,
+  shrinkanimation,
+  coloranimation,
+  upper,
+  wide,
+}: Props): ReactElement {
   const [hover, setHover] = useState<boolean>(false);
   const enterHandler = () => setHover(true);
   const leaveHandler = () => setHover(false);
@@ -27,15 +37,18 @@ export default function Button({ text, children, width, type, ...restProps }: Pr
       onMouseLeave={leaveHandler}
       onFocus={enterHandler}
       onBlur={leaveHandler}
-      ishover={hover}
-      {...restProps}
+      $ishover={hover}
+      $arrowanimation={arrowanimation}
+      $shrinkanimation={shrinkanimation}
+      $coloranimation={coloranimation}
+      $upper={upper}
     >
-      {restProps.arrowanimation ? <ArrowIcon ishover={hover} /> : null}
+      <ArrowIcon $ishover={hover} />
       <TextBox>{children ?? text}</TextBox>
     </StyledButton>
   );
 }
 
 Button.defaultProps = {
-  type: 'primary'
+  type: 'primary',
 };
