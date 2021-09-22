@@ -1,44 +1,40 @@
 import { Card } from 'components';
-import React, { ReactElement, useState } from 'react';
+import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { StyledNavItemDropdown } from './NavItemDropdown.styled'
 import { dropdownItemType } from './navEntities';
 
 interface dropdownNavItemType {
-  text: string,
-  href?: string,
+  id: string;
+  text: string;
+  href?: string;
   dropdownIds?: {
-    imageIds: string[],
-    textIds: string[]
+    imageIds: string[];
+    textIds: string[];
   },
   dropdownContent?: {
-    [key: string]: dropdownItemType
+    [key: string]: dropdownItemType;
   }
+  isOpen: boolean;
+  onClick: React.MouseEventHandler<HTMLAnchorElement>;
 }
 
 export default function NavItemDropdown({
   text,
   dropdownIds,
-  dropdownContent
+  dropdownContent,
+  id,
+  isOpen,
+  onClick
 }: dropdownNavItemType): ReactElement {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleisOpenStateByClick:React.MouseEventHandler<HTMLAnchorElement> = () => {
-    setIsOpen(!isOpen);
-  }
-
-  const toggleisOpenStateByKeyUp:React.KeyboardEventHandler<HTMLAnchorElement> = (e) => {
-    if (e.code !== 'Space' && e.code !== 'Enter') return;
-    setIsOpen(!isOpen);
-  }
 
   return (
     <StyledNavItemDropdown isOpen={isOpen}>
-      <a 
+      <a
+        id={id}
         tabIndex={0}
         className='dropdown__title' 
-        onClick={toggleisOpenStateByClick}
-        onKeyUp={toggleisOpenStateByKeyUp}
+        onClick={onClick}
         role='menuitem' 
         aria-label="navigation dropdown item"
         aria-haspopup="true"
