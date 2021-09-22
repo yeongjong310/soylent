@@ -79,33 +79,42 @@ const dropdownContents: dropdownContentsType = {
   },
   'powders': {
     'shopAll': {
-      text: 'Shop All', href: '/collections/all-drinks'
+      text: 'Shop All', href: '/collections/all-powder'
     },
     'giftCards': {
-      text: 'Complete Meal', href: '/collections/all-drinks/complete-meal'
+      text: 'Gift Cards', href: '/products/gift-card'
     },
     'soylentPowder': {
-      text: 'Complete Protein', href: '/collections/complete-protein'
+      text: 'Soylent Powder', href: '/collections/all-powder',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Kitchen_IMG_8200-_January_1_500x.png?v=1618525087)'
     },
     'blenderBottle': {
-      text: 'Complete Energy', href: '/collections/complete-energy'
+      text: 'Blender Bottle', href: '/products/blender-bottle-24',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/BB_1_Final_500x.png?v=1627317644'
     },
     'powderScoop': {
-      text: 'Variety / Sampler Packs', href: '/pages/bundles'
+      text: 'Powder Scoop', href: '/products/scoop',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/scoop_image_500x.png?v=1618939580'
     },
   },
   'learn': {
     'insights': {
-      text: 'Shop All', href: '/collections/all-powders'
+      text: 'Insights', href: '/collections/all-powders',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/1110-Soylent_Lifestyle_4_1_500x.png?v=1618525157'
     },
     'story': {
-      text: 'Complete Meal', href: '/collections/all-drinks/complete-meal'
+      text: 'Story', href: '/collections/all-drinks/complete-meal',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Story_500x.png?v=1618936850'
+      
     },
     'science': {
-      text: 'Complete Protein', href: '/collections/complete-protein'
+      text: 'Science', href: '/collections/complete-protein',
+      src: 'https://cdn.shopify.com/s/files/1/0003/5933/3902/files/soy_image_500x.png?v=1618940712'
     },
     'mission': {
-      text: 'Complete Energy', href: '/collections/complete-energy'
+      text: 'Mission', href: '/collections/complete-energy',
+      src: '	https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Donation_January_IMG_0305-Edit_1_500x.png?v=1618525196'
+
     },
   },
 }
