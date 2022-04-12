@@ -1,14 +1,15 @@
-import React, { ReactElement } from 'react'
-import { ReactComponent as Star0} from 'assets/Icon/star0.svg';
-import { ReactComponent as Star50} from 'assets/Icon/star50.svg';
-import { ReactComponent as Star100} from 'assets/Icon/star100.svg';
+import React, { ReactElement } from 'react';
 
-export default function Star({ percent }:{ percent: 0 | 50 | 100 }): ReactElement {
-  return (
-    percent === 100
-    ? <Star100 />
-    : percent === 50
-    ?  <Star50 />
-    : <Star0 />
-  )
+interface StarProps {
+  percent: 0 | 50 | 100;
+}
+
+export default function Star({ percent }: StarProps): ReactElement {
+  return percent === 100 ? (
+    <img src="./assets/Icon/FullStar.webp" alt="Full Star" />
+  ) : percent === 50 ? (
+    <img src="./assets/Icon/HalfStar.png" alt="Half Star" />
+  ) : (
+    <img src="./assets/Icon/EmptyStar.png" alt="Empty Star" />
+  );
 }

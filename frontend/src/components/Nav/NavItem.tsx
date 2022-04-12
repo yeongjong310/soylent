@@ -1,25 +1,23 @@
-import React, { ReactElement } from 'react'
-import { Link } from 'react-router-dom'
+import React, { ReactElement } from 'react';
+import { Link } from 'react-router-dom';
 import { StyledNavItem } from './NavItem.styled';
-import { ReactComponent as ArrowSvg } from 'assets/Icon/arrow.svg';
+import { ReactComponent as ArrowSvg } from './assets/Icon/arrow.svg';
 
 interface Props {
   text: string;
   href: string;
 }
 
-export default function NavItem(
-  { text, 
-    href,
-    ...restProps
-  }: Props): ReactElement {
+export default function NavItem({
+  text,
+  href,
+  ...restProps
+}: Props): ReactElement {
   return (
-    <StyledNavItem
-      {...restProps}
-    >
-      <Link 
+    <StyledNavItem {...restProps}>
+      <Link
         to={href}
-        role='menuitem' 
+        role="menuitem"
         aria-label="navigation Link item"
         aria-haspopup="false"
       >
@@ -29,5 +27,5 @@ export default function NavItem(
         </span>
       </Link>
     </StyledNavItem>
-  )
+  );
 }
