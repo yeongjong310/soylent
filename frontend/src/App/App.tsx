@@ -15,7 +15,7 @@ export default function App() {
       <TopBanner />
       <Header />
       <Routes>
-        <Route path="/" element={Landing} />
+        <Route path="/" element={<Landing />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
