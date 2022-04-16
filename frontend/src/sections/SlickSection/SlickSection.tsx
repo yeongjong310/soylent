@@ -1,14 +1,13 @@
 import 'styled-components/macro';
-import React, { ReactElement, useEffect, useState } from 'react'
-import { Slick } from 'components';
+import React, { ReactElement, useEffect, useState } from 'react';
+import { Slick } from 'components/Common';
 import { Container } from './SlickSection.styled';
-
 
 export default function SlickSection(): ReactElement {
   const [randomData, setRandomData] = useState();
   const [currentTab, setCurrentTab] = useState('all-drinks');
   useEffect(() => {
-    const url = "api/featured";
+    const url = 'api/featured';
 
     const fetchData = async () => {
       try {
@@ -19,19 +18,19 @@ export default function SlickSection(): ReactElement {
         const json = await response.json();
 
         setRandomData(json);
-      } catch(e) {
+      } catch (e) {
         console.error(e);
       }
-    }
+    };
 
     fetchData();
   }, []);
 
-  const updateButtonName:React.MouseEventHandler<HTMLUListElement> = (e) => {
+  const updateButtonName: React.MouseEventHandler<HTMLUListElement> = (e) => {
     const target = e.target as Element;
     if (target.tagName !== 'BUTTON') return;
 
-    switch(target.textContent) {
+    switch (target.textContent) {
       case 'Drinks':
         setCurrentTab('all-drinks');
         break;
@@ -43,22 +42,27 @@ export default function SlickSection(): ReactElement {
         break;
       default:
     }
-  }
+  };
 
   return (
     <Container>
       <h2>Find Your Perfect Soylent</h2>
-      <ul
-        onClick={updateButtonName}
-        >
-        <li className={currentTab === 'all-drinks' ? 'active' : ''}><button>Drinks</button></li>
-        <li className={currentTab === 'all-powder' ? 'active' : ''}><button>Powder</button></li>
-        <li className={currentTab === 'squared' ? 'active' : ''}><button>Squared</button></li>
+      <ul onClick={updateButtonName}>
+        <li className={currentTab === 'all-drinks' ? 'active' : ''}>
+          <button>Drinks</button>
+        </li>
+        <li className={currentTab === 'all-powder' ? 'active' : ''}>
+          <button>Powder</button>
+        </li>
+        <li className={currentTab === 'squared' ? 'active' : ''}>
+          <button>Squared</button>
+        </li>
       </ul>
-        <p>No time, no problem! Grab a complete, nutritious meal that is as healthy as it is tasty!</p>
-      {randomData && 
-        <Slick data={randomData[currentTab]}/>
-      }
+      <p>
+        No time, no problem! Grab a complete, nutritious meal that is as healthy
+        as it is tasty!
+      </p>
+      {randomData && <Slick data={randomData[currentTab]} />}
     </Container>
-  )
+  );
 }

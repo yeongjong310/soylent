@@ -5,9 +5,9 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom';
-import { Header, TopBanner } from 'components';
+import { Header, TopBanner } from './Base';
 import { Landing } from 'pages';
-import Footer from 'components/Footer/Footer';
+import Footer from 'App/Base/Footer/Footer';
 
 export default function App() {
   return (
